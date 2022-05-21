@@ -2,7 +2,7 @@
 sort: 1
 ---
 
-# Production Process Manager
+# PM2
 
 Node.js Production Process Manager with a built-in Load Balancer.
 

@@ -2,9 +2,9 @@
 sort: 1
 ---
 
-# Node Version Manager
+# NVM
 
-POSIX-compliant bash script to manage multiple active node.js versions.
+Node Version Manager -POSIX-compliant bash script to manage multiple active node.js versions.
 
 - [github.com/nvm-sh/nvm](https://github.com/nvm-sh/nvm){:target="_blank"}
 

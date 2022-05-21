@@ -2,7 +2,7 @@
 sort: 3
 ---
 
-# Python Package Index
+# PIP
 
 The PyPA recommended tool for installing Python packages.
 

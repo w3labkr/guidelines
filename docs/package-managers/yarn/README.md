@@ -2,7 +2,7 @@
 sort: 2
 ---
 
-# Yarn Package Manager
+# Yarn
 
 Fast, reliable, and secure dependency management.
 

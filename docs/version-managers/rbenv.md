@@ -2,7 +2,7 @@
 sort: 3
 ---
 
-# Ruby Version Manager
+# rbenv
 
 Manage your app's Ruby environment.
 

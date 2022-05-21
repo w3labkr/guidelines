@@ -2,7 +2,7 @@
 sort: 2
 ---
 
-# Python Version Management
+# pyenv
 
 Simple Python version management
 
