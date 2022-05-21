@@ -2,7 +2,7 @@
 sort: 4
 ---
 
-# Composer
+# composer
 
 Dependency Manager for PHP
 

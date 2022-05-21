@@ -2,7 +2,7 @@
 sort: 1
 ---
 
-# NPM
+# npm
 
 the package manager for JavaScript
 
