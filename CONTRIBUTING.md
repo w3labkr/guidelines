@@ -1,6 +1,6 @@
 # Contributing Guide
 
-[Jekyll](https://jekyllrb.com/){:target="_blank"} is a static site generator. It takes text written in your favorite markup language and uses layouts to create a static website.
+[Jekyll](https://jekyllrb.com/) is a static site generator. It takes text written in your favorite markup language and uses layouts to create a static website.
 
 ## Quickstart
 
@@ -41,5 +41,5 @@ bundle add webrick
 bundle exec jekyll serve
 ```
 
-[You have already activated i18n 1.8.11, but your Gemfile requires i18n 0.9.5. Prepending bundle exec to your command may solve this. (Gem::LoadError)](https://github.com/Homebrew/brew.sh/issues/845){:target="_blank"}
+[You have already activated i18n 1.8.11, but your Gemfile requires i18n 0.9.5. Prepending bundle exec to your command may solve this. (Gem::LoadError)](https://github.com/Homebrew/brew.sh/issues/845)
 
