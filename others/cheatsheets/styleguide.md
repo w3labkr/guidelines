@@ -1,4 +1,4 @@
-# Style Guides
+# Styleguide
 
 ## Google Style Guides
 
