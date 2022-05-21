@@ -32,6 +32,16 @@ Install through vscode extensions. Search for [Stylelint](https://marketplace.vi
 ```json
 ```
 
+## Extensions
+
+**Essential extensions**
+
+- [1](https://1){:target="_blank"}
+
+**Recommended extensions**
+
+- [1](https://1){:target="_blank"}
+
 ## Troubleshooting
 
 ```shell
