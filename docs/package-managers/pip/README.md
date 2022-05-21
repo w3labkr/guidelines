@@ -1,7 +1,3 @@
----
-sort: 3
----
-
 # pip
 
 The PyPA recommended tool for installing Python packages.

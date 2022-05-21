@@ -1,7 +1,3 @@
----
-sort: 4
----
-
 # Swagger UI
 
 Swagger UI is a collection of HTML, JavaScript, and CSS assets that dynamically generate beautiful documentation from a Swagger-compliant API.

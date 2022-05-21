@@ -1,7 +1,3 @@
----
-sort: 5
----
-
 # Django
 
 The Web framework for perfectionists with deadlines.

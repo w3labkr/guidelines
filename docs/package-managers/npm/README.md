@@ -1,7 +1,3 @@
----
-sort: 1
----
-
 # npm
 
 the package manager for JavaScript

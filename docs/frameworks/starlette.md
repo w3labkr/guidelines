@@ -1,7 +1,3 @@
----
-sort: 3
----
-
 # Starlette
 
 The little ASGI framework that shines.

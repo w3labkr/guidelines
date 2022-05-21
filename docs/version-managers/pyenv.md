@@ -1,7 +1,3 @@
----
-sort: 2
----
-
 # pyenv
 
 Simple Python version management

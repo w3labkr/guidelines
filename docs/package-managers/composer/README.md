@@ -1,7 +1,3 @@
----
-sort: 4
----
-
 # composer
 
 Dependency Manager for PHP

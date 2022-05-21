@@ -1,7 +1,3 @@
----
-sort: 1
----
-
 # Flask
 
 The Python micro framework for building web applications.

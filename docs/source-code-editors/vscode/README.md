@@ -1,7 +1,3 @@
----
-sort: 1
----
-
 # Visual Studio Code
 
 Visual Studio Code is a distribution of the Code.

@@ -1,7 +1,3 @@
----
-sort: 3
----
-
 # rbenv
 
 Manage your app's Ruby environment.

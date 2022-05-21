@@ -1,7 +1,3 @@
----
-sort: 2
----
-
 # JS-Beautify
 
 Beautifier for javascript.

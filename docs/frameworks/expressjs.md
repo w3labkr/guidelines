@@ -1,7 +1,3 @@
----
-sort: 6
----
-
 # Expressjs
 
 Fast, unopinionated, minimalist web framework for node.

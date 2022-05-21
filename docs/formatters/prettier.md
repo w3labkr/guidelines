@@ -1,7 +1,3 @@
----
-sort: 1
----
-
 # Prettier
 
 Prettier is an opinionated code formatter.

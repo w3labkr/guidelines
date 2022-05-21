@@ -1,7 +1,3 @@
----
-sort: 2
----
-
 # Sublime Text
 
 The sophisticated text editor for code, markup and prose.

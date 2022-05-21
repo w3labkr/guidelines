@@ -1,7 +1,3 @@
----
-sort: 1
----
-
 # Gulp
 
 A toolkit to automate & enhance your workflow.

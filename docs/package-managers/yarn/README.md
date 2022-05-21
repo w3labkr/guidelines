@@ -1,7 +1,3 @@
----
-sort: 2
----
-
 # yarn
 
 Fast, reliable, and secure dependency management.
