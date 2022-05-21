@@ -1,4 +1,4 @@
-# Git server as a service
+# Git Server
 
 ## Github
 
