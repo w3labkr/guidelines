@@ -15,7 +15,7 @@ Install through vscode extensions. Search for [Autoprefixer](https://marketplace
 
 ```json
 {
-    "autoprefixer.formatOnSave": true,
+    "autoprefixer.formatOnSave": false,
     "autoprefixer.ignoreFiles": [
         "**/*.min.css"
     ],
@@ -34,7 +34,7 @@ Add vendor prefixes to CSS when you save a file.
 
 ```json
 {
-    "autoprefixer.formatOnSave": true,
+    "autoprefixer.formatOnSave": false,
 }
 ```
 
@@ -60,5 +60,17 @@ Any options supported by autoprefixer.
             "not dead"
         ]
     },
+}
+```
+
+## Troubleshooting
+
+Disallow vendor prefixes for properties in .stylelintrc when autoprefixer.formatOnSave is set to true.
+
+```json
+{
+    "rules": {
+        "property-no-vendor-prefix": null
+    }
 }
 ```
