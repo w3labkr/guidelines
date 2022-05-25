@@ -2,6 +2,8 @@
 
 Provides formatting for the HTML code in PHP files using JSbeautify - Works well paired with a PHP.
 
+- [github.com/RiFi2k/format-html-in-php](https://github.com/RiFi2k/format-html-in-php){:target="_blank"}
+
 ## Integration with visual studio code
 
 Install through vscode extensions. Search for [Format HTML in PHP](https://marketplace.visualstudio.com/items?itemName=rifi2k.format-html-in-php){:target="_blank"}.

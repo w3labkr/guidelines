@@ -48,7 +48,7 @@ In order to get the latest versions of the dependencies and to update the compos
 composer update
 ```
 
-The require command adds new packages to the composer.json file from the current directory. 
+The require command adds new packages to the composer.json file from the current directory.
 
 ```shell
 composer require vendor/package vendor/package2
@@ -60,7 +60,7 @@ The remove command removes packages from the composer.json file from the current
 composer remove vendor/package vendor/package2
 ```
 
-The reinstall command looks up installed packages by name, uninstalls them and reinstalls them. 
+The reinstall command looks up installed packages by name, uninstalls them and reinstalls them.
 
 ```shell
 composer reinstall vendor/package vendor/package2

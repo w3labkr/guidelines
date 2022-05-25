@@ -8,7 +8,7 @@ sort: 10
 
 ## Software Versioning
 
-Software versioning is the process of assigning either unique version names or unique version numbers to unique states of computer software. 
+Software versioning is the process of assigning either unique version names or unique version numbers to unique states of computer software.
 
 Semantic versioning
 

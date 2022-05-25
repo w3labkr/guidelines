@@ -11,4 +11,3 @@ Documenting web technologies, including CSS, HTML, and JavaScript, since 2005.
 Raw browser/feature support data from caniuse.com
 
 [caniuse.com/](http://caniuse.com/){:target="_blank"}
-

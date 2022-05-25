@@ -42,4 +42,3 @@ bundle exec jekyll serve
 ```
 
 [You have already activated i18n 1.8.11, but your Gemfile requires i18n 0.9.5. Prepending bundle exec to your command may solve this. (Gem::LoadError)](https://github.com/Homebrew/brew.sh/issues/845)
-

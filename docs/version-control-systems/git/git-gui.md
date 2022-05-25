@@ -1,4 +1,4 @@
-# Git GUI 
+# Git GUI
 
 ## Sourcetree
 

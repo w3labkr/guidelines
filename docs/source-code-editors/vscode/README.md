@@ -32,6 +32,9 @@ One place for all extensions for Visual Studio, Azure DevOps Services, Azure Dev
 - [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons){:target="_blank"}  
   Icons for Visual Studio Code  
 
+- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer){:target="_blank"}  
+  Launch a development local Server with live reload feature for static & dynamic pages.  
+
 - [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag){:target="_blank"}  
   Automatically add HTML/XML close tag, same as Visual Studio IDE or Sublime Text  
 
@@ -176,11 +179,13 @@ Enable Emmet abbreviations in languages that are not supported by default. Add a
 
 ## Uninstall
 
+Step1. Run the script
+
 ```shell
 rm -rf $HOME/Library/Application\ Support/Code
 rm -rf $HOME/.vscode
 ```
 
-Remove VSCode from application
+Step2. Remove VSCode from application
 
 [how-to-completely-uninstall-vscode-on-mac](https://stackoverflow.com/questions/42603103/how-to-completely-uninstall-vscode-on-mac){:target="_blank"}
