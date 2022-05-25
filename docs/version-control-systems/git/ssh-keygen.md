@@ -24,13 +24,13 @@ Copies the contents of the id_rsa.pub file to your clipboard.
 
 ```shell
 # MacOS
-pbcopy < ~/.ssh/id_rsa.pub
+pbcopy < ~/.ssh/example_id_rsa.pub
 
 # Window
-clip < ~/.ssh/id_rsa.pub
+clip < ~/.ssh/example_id_rsa.pub
 
 # Linux
-cat ~/.ssh/id_rsa.pub
+cat ~/.ssh/example_id_rsa.pub
 ```
 
 [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent){:target="_blank"}
@@ -46,8 +46,12 @@ Host example.github.com
   User git
   IdentityFile ~/.ssh/example_id_rsa
   IdentitiesOnly yes
+```
 
-$ git clone git@example.github.com:username/repo.git
+Example of git clone using multiple ssh keys.
+
+```shell
+git clone git@example.github.com:username/repo.git
 ```
 
 ## Troubleshooting
