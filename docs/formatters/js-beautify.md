@@ -52,6 +52,25 @@ Install through vscode extensions. Search for [Beautify](https://marketplace.vis
 
 **settings.json**
 
+```json
+{
+    "html.validate.styles": false,
+    "html.validate.scripts": false,
+    "html.format.enable": false,
+
+    "beautify.language": {
+        "html": ["htm", "html", "ejs", "jinja"]
+    },
+    "beautify.ignore": ["*.css", "*.js", "*.jsx", "*.ts", "*.tsx"],
+
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify",
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true
+    },
+}
+```
+
 Controls whether the built-in HTML language support validates embedded styles.
 
 ```json

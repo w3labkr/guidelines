@@ -13,7 +13,7 @@ npm install --save-dev @babel/core @babel/cli @babel/node
 
 ## Configuration
 
-.package.json
+package.json
 
 ```json
 { 

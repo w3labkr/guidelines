@@ -66,6 +66,16 @@ Install through vscode extensions. Search for [phpcs](https://marketplace.visual
 
 **settings.json**
 
+```json
+{
+    "php.validate.enable": false,
+    "php.suggest.basic": false,
+    
+    "phpcs.enable": true,
+    "phpcs.standard": "PSR2",
+}
+```
+
 Enable/disable built-in PHP validation.
 
 ```json

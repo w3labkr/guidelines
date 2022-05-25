@@ -15,6 +15,18 @@ pip install black
 
 **settings.json**
 
+```json
+{
+    "python.formatting.provider": "black",
+
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python",
+        "editor.tabSize": 4,
+        "editor.formatOnSave": true,
+    },
+}
+```
+
 Provider for formatting. Possible options include 'autopep8', 'black', and 'yapf'.
 
 ```json

@@ -25,6 +25,22 @@ Install through vscode extensions. Search for [ESLint](https://marketplace.visua
 
 **settings.json**
 
+```json
+{
+    "javascript.format.enable": false,
+    "javascript.validate.enable": false,
+
+    "eslint.format.enable": true,
+    "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+
+    "[javascript]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true
+        },
+    },
+}
+```
+
 Enable/disable default JavaScript formatter.
 
 ```json

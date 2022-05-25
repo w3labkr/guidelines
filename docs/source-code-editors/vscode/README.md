@@ -48,18 +48,56 @@ One place for all extensions for Visual Studio, Azure DevOps Services, Azure Dev
 
 **settings.json**
 
+```json
+{
+    "files.associations": {
+        "*.vue": "html",
+        "*.ejs": "html",
+        "*.jinja": "html",
+        "*.jsx": "javascriptreact",
+        "*.tsx": "typescriptreact"
+    },
+
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true,
+        "**/package-lock.json": true,
+        "**/yarn-lock.json": true,
+        "**/Gemfile.lock": true,
+        "**/.history": true
+    },
+
+    "editor.formatOnSave": false,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": null,
+
+    "emmet.includeLanguages": {
+        "php": "html",
+        "ejs": "html",
+        "vue-html": "html",
+        "vue": "html",
+        "jinja-html": "html",
+        "jinja": "html",
+        "javascript": "javascriptreact",
+        "typescript": "typescriptreact"
+    },
+}
+```
+
 Configure file associations to languages (e.g. `"*.extension": "html"`). These have precedence over the default associations of the languages installed.
 
 ```json
 {
-  "files.associations": {
-    "*.html": "html",
-    "*.vue": "html",
-    "*.ejs": "html",
-    "*.jinja": "html",
-    "*.jsx": "javascriptreact",
-    "*.tsx": "typescriptreact"
-  },
+    "files.associations": {
+        "*.vue": "html",
+        "*.ejs": "html",
+        "*.jinja": "html",
+        "*.jsx": "javascriptreact",
+        "*.tsx": "typescriptreact"
+    },
 }
 ```
 
@@ -67,15 +105,15 @@ Configure [glob patterns](https://code.visualstudio.com/docs/editor/codebasics#_
 
 ```json
 {
-  "search.exclude": {
-    "**/node_modules": true,
-    "**/bower_components": true,
-    "**/*.code-search": true,
-    "**/package-lock.json": true,
-    "**/yarn-lock.json": true,
-    "**/Gemfile.lock": true,
-    "**/.history": true
-  },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true,
+        "**/package-lock.json": true,
+        "**/yarn-lock.json": true,
+        "**/Gemfile.lock": true,
+        "**/.history": true
+    },
 }
 ```
 
@@ -83,7 +121,7 @@ Format a file on save. A formatter must be available, the file must not be saved
 
 ```json
 {
-  "editor.formatOnSave": false,
+    "editor.formatOnSave": false,
 }
 ```
 
@@ -91,7 +129,7 @@ Insert spaces when pressing `Tab`. This setting is overridden based on the file 
 
 ```json
 {
-  "editor.insertSpaces": true,
+    "editor.insertSpaces": true,
 }
 ```
 
@@ -99,7 +137,23 @@ Controls whether `editor.tabSize#` and `#editor.insertSpaces` will be automatica
 
 ```json
 {
-  "editor.detectIndentation": false,
+    "editor.detectIndentation": false,
+}
+```
+
+The number of spaces a tab is equal to. This setting is overridden based on the file contents when `editor.detectIndentation` is on.
+
+```json
+{
+    "editor.tabSize": 4,
+}
+```
+
+Defines a default formatter which takes precedence over all other formatter settings. Must be the identifier of an extension contributing a formatter.
+
+```json
+{
+    "editor.defaultFormatter": null,
 }
 ```
 
@@ -107,16 +161,16 @@ Enable Emmet abbreviations in languages that are not supported by default. Add a
 
 ```json
 {
-  "emmet.includeLanguages": {
-    "php": "html",
-    "ejs": "html",
-    "vue-html": "html",
-    "vue": "html",
-    "jinja-html": "html",
-    "jinja": "html",
-    "javascript": "javascriptreact",
-    "typescript": "typescriptreact"
-  },
+    "emmet.includeLanguages": {
+        "php": "html",
+        "ejs": "html",
+        "vue-html": "html",
+        "vue": "html",
+        "jinja-html": "html",
+        "jinja": "html",
+        "javascript": "javascriptreact",
+        "typescript": "typescriptreact"
+    },
 }
 ```
 

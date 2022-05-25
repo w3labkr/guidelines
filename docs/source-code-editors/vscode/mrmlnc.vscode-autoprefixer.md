@@ -11,6 +11,25 @@ Install through vscode extensions. Search for [Autoprefixer](https://marketplace
 
 ## Configuration
 
+**settings.json**
+
+```json
+{
+    "autoprefixer.formatOnSave": true,
+    "autoprefixer.ignoreFiles": [
+        "**/*.min.css"
+    ],
+    "autoprefixer.options": {
+        "browsers": [
+            "> 0.5%",
+            "last 2 versions",
+            "Firefox ESR",
+            "not dead"
+        ]
+    },
+}
+```
+
 Add vendor prefixes to CSS when you save a file.
 
 ```json

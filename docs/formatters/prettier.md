@@ -66,6 +66,21 @@ Install through vscode extensions. Search for [Prettier - Code formatter](https:
 
 **settings.json**
 
+```json
+{
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true
+    },
+}
+```
+
 Configure settings to be overridden for the css language.
 
 ```json
