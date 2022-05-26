@@ -36,6 +36,8 @@ npm install --save-dev prettier stylelint stylelint-config-prettier stylelint-co
                 "empty-line-between-groups": false
             }
         ],
+        "block-no-empty": null,
+        "property-no-vendor-prefix": null
     }
 }
 ```
@@ -171,6 +173,29 @@ npm install --save-dev stylelint-csstree-validator
   "rules": {
     "csstree/validator": true
   }
+}
+```
+
+## Rules
+
+Disallow empty blocks.
+
+```json
+{
+    "rules": {
+        "block-no-empty": null,
+        "property-no-vendor-prefix": null
+    }
+}
+```
+
+Disallow vendor prefixes for properties.
+
+```json
+{
+    "rules": {
+        "property-no-vendor-prefix": null
+    }
 }
 ```
 
