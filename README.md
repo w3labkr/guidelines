@@ -1,6 +1,6 @@
 # W3LabKr Guidelines
 
-Guidelines for W3LabKr open-source projects.
+Guidelines for W3LabKr open-source projects. You can see all the example configuration files in the [styleguide](https://github.com/w3labkr/styleguide) repository.
 
 ## Description
 
