@@ -29,13 +29,13 @@ Install through vscode extensions. Search for [Stylelint](https://marketplace.vi
 
 ```json
 {
-    "css.validate": false,
-    "css.lint.emptyRules": "ignore",
-    "css.lint.unknownProperties": "ignore",
-
     "stylelint.enable": true,
     "stylelint.validate": ["css", "scss", "less", "postcss"],
     "stylelint.snippet": ["css", "scss", "less", "postcss"],
+
+    "css.validate": false,
+    "css.lint.emptyRules": "ignore",
+    "css.lint.unknownProperties": "ignore",
 
     "[css]": {
         "editor.codeActionsOnSave": {
@@ -111,13 +111,13 @@ Configure settings to be overridden for the css language.
 
 ```json
 {
-    "scss.validate": false,
-    "scss.lint.emptyRules": "ignore",
-    "scss.lint.unknownProperties": "ignore",
-
     "stylelint.enable": true,
     "stylelint.validate": ["css", "scss", "less", "postcss"],
     "stylelint.snippet": ["css", "scss", "less", "postcss"],
+
+    "scss.validate": false,
+    "scss.lint.emptyRules": "ignore",
+    "scss.lint.unknownProperties": "ignore",
 
     "[scss]": {
         "editor.codeActionsOnSave": {
