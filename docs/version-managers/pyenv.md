@@ -36,6 +36,32 @@ Restart your shell so the path changes take effect.
 exec $SHELL
 ```
 
+## Usage
+
+### Create Virtual Environment
+
+```shell
+pyenv install 3.8.12
+pyenv virtualenv 3.8.12 <virtualenv>-3.8.12
+pyenv local <virtualenv>-3.8.12
+pyenv shell <virtualenv>-3.8.12
+```
+
+### Integration with visual studio code
+
+Open the command palette in each project and change the interpreter.
+
+- Python: Select Interpreter
+- Jupyter: Select Interpreter to start Jupyter server
+
+Open Kernel Options in your Jupyter notebook and change the interpreter.
+
+- Select kernel
+
+### Troubleshooting
+
+If the virtual environment does not appear in the interpreter, reopen the file or terminal.
+
 ## Commands
 
 Lists all Python versions known to pyenv.
