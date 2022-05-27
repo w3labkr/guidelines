@@ -13,6 +13,7 @@ Install through vscode extensions. Search for [markdownlint](https://marketplace
 ```json
 {
     "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
             "source.fixAll.markdownlint": true
