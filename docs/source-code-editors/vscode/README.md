@@ -47,6 +47,12 @@ One place for all extensions for Visual Studio, Azure DevOps Services, Azure Dev
 - [Indent 4-to-2](https://marketplace.visualstudio.com/items?itemName=Compulim.indent4to2){:target="_blank"}  
   Convert indentation from tab or 4 spaces into 2 spaces  
 
+- [XML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml){:target="_blank"}  
+  XML Language Support by Red Hat  
+
+- [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv){:target="_blank"}  
+  Highlight CSV and TSV files, Run SQL-like queries  
+
 ## Settings
 
 **settings.json**
