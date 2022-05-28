@@ -15,9 +15,6 @@ One place for all extensions for Visual Studio, Azure DevOps Services, Azure Dev
 
 **Essential extensions**
 
-- [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense){:target="_blank"}  
-  Visual Studio Code plugin that autocompletes filenames  
-
 - [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig){:target="_blank"}  
   EditorConfig Support for Visual Studio Code.  
 
@@ -32,6 +29,15 @@ One place for all extensions for Visual Studio, Azure DevOps Services, Azure Dev
 
 - [Autoprefixer](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-autoprefixer){:target="_blank"}  
   Parse CSS and add vendor prefixes automatically.  
+
+- [npm](https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script){:target="_blank"}  
+  npm support for VS Code  
+
+- [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense){:target="_blank"}  
+  Visual Studio Code plugin that autocompletes npm modules in import statements  
+
+- [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense){:target="_blank"}  
+  Visual Studio Code plugin that autocompletes filenames  
 
 **Recommended extensions**
 
