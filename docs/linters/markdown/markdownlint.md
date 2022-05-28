@@ -17,7 +17,7 @@ Configure settings to be overridden for the markdown language.
     "[markdown]": {
         "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
         "editor.tabSize": 4,
-        "editor.formatOnSave": true,
+        "editor.formatOnSave": false,
         "editor.codeActionsOnSave": {
             "source.fixAll.markdownlint": true
         }

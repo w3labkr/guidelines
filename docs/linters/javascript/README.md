@@ -36,7 +36,7 @@ Install through vscode extensions. Search for [ESLint](https://marketplace.visua
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.tabSize": 2,
-        "editor.formatOnSave": true,
+        "editor.formatOnSave": false,
         "editor.codeActionsOnSave": {
             "source.fixAll.eslint": true
         },
@@ -83,7 +83,7 @@ Configure settings to be overridden for the javascript language.
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.tabSize": 2,
-        "editor.formatOnSave": true,
+        "editor.formatOnSave": false,
         "editor.codeActionsOnSave": {
             "source.fixAll.eslint": true
         },
