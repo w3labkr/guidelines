@@ -5,6 +5,36 @@ A toolkit to automate & enhance your workflow.
 - [gulpjs.com/](https://gulpjs.com/){:target="_blank"}
 - [github.com/gulpjs/gulp](https://github.com/gulpjs/gulp){:target="_blank"}
 
+## Directory Structure
+
+```text
+.
+├── dist/
+│   ├── style.css
+│   ├── style.min.css
+│   ├── style.min.css.map
+│   ├── script.js
+│   ├── script.min.js
+│   └── script.min.js.map
+└── src/
+    ├── assets/
+    │   ├── image/
+    │   ├── js/
+    │   └── scss/
+    ├── data/
+    ├── template-parts/
+    │   ├── breadcrumb.html
+    │   └── hero.html
+    ├── templates/
+    ├── footer.html
+    ├── header.html
+    ├── index.html
+    ├── sidebar-1.html
+    └── sidebar-2.html
+```
+
+Directory tree created by [tree.nathanfriend.io](https://tree.nathanfriend.io/)
+
 ## Installation
 
 Install the gulp command line utility
@@ -97,6 +127,10 @@ exports.default = function() {
 ```
 
 ## Dependencies
+
+```shell
+npm install --save-dev del gulp-rename gulp-sourcemaps gulp-concat gulp-header merge-stream
+```
 
 ### [del](https://www.npmjs.com/package/del){:target="_blank"}
 
@@ -206,38 +240,21 @@ gulp.src('./foo/*.js')
   .pipe(gulp.dest('./dist/'));
 ```
 
-### [dependency](dependency){:target="_blank"}
+### [merge-stream](https://www.npmjs.com/package/merge-stream){:target="_blank"}
+
+Merge (interleave) a bunch of streams.
 
 ```shell
-
+npm install --save-dev merge-stream
 ```
 
 ```javascript
-```
+const mergeStream = require("merge-stream");
 
-### [dependency](dependency){:target="_blank"}
-
-```shell
-
-```
-
-```javascript
-```
-
-### [dependency](dependency){:target="_blank"}
-
-```shell
-
-```
-
-```javascript
-```
-
-### [dependency](dependency){:target="_blank"}
-
-```shell
-
-```
-
-```javascript
+gulp.task('lint', function() {
+  return mergeStream(
+    gulp.src('src/*.html').pipe(htmlValidator()),
+    gulp.src('src/*.js').pipe(jsHint())
+  );
+});
 ```
