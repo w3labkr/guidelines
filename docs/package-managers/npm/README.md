@@ -91,3 +91,11 @@ npm install
 ## Command Reference
 
 [docs.npmjs.com/cli/v8/commands](https://docs.npmjs.com/cli/v8/commands){:target="_blank"}
+
+## Integration with visual studio code
+
+- [npm](https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script){:target="_blank"}  
+  npm support for VS Code.  
+
+- [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense){:target="_blank"}  
+  Visual Studio Code plugin that autocompletes npm modules in import statements.  

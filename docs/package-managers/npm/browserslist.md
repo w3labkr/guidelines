@@ -13,6 +13,17 @@ npm install --save-dev browserslist
 
 ## Configuration
 
+.browserslistrc
+
+```text
+# Browsers that we support
+
+> 0.5%
+last 2 versions
+Firefox ESR
+not dead
+```
+
 package.json
 
 ```json
@@ -24,15 +35,4 @@ package.json
         "not dead"
     ]
 }
-```
-
-.browserslistrc
-
-```text
-# Browsers that we support
-
-> 0.5%
-last 2 versions
-Firefox ESR
-not dead
 ```

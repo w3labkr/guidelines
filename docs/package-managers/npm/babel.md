@@ -40,7 +40,7 @@ A Babel preset for each environment.
 npm install --save-dev @babel/preset-env
 ```
 
-babel.config.json
+.babelrc.json
 
 ```json
 { 
@@ -56,7 +56,7 @@ Babel preset for all React plugins.
 npm install --save-dev @babel/preset-react
 ```
 
-babel.config.json
+.babelrc.json
 
 ```json
 { 
@@ -72,7 +72,7 @@ Babel preset for TypeScript.
 npm install --save-dev @babel/preset-typescript
 ```
 
-babel.config.json
+.babelrc.json
 
 ```json
 { 
