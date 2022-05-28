@@ -33,7 +33,7 @@ npm install --save-dev prettier stylelint stylelint-config-prettier stylelint-co
             true,
             {
                 "border-in-box-model": true,
-                "empty-line-between-groups": false
+                "empty-line-between-groups": true
             }
         ],
         "block-no-empty": null,
@@ -91,7 +91,6 @@ npm install --save-dev stylelint-order
     ],
     "rules": {
         "order/order": [],
-        "order/properties-order": []
     },
 }
 ```
@@ -114,13 +113,12 @@ npm install --save-dev stylelint-order stylelint-config-rational-order
         "stylelint-config-rational-order/plugin"
     ],
     "rules": {
-        "order/order": [],
         "order/properties-order": [],
         "plugin/rational-order": [
             true,
             {
                 "border-in-box-model": true,
-                "empty-line-between-groups": false
+                "empty-line-between-groups": true
             }
         ],
     }
@@ -167,12 +165,12 @@ npm install --save-dev stylelint-csstree-validator
 
 ```json
 {
-  "plugins": [
-    "stylelint-csstree-validator"
-  ],
-  "rules": {
-    "csstree/validator": true
-  }
+    "plugins": [
+        "stylelint-csstree-validator"
+    ],
+    "rules": {
+        "csstree/validator": true
+    }
 }
 ```
 
@@ -183,8 +181,7 @@ Disallow empty blocks.
 ```json
 {
     "rules": {
-        "block-no-empty": null,
-        "property-no-vendor-prefix": null
+        "block-no-empty": null
     }
 }
 ```

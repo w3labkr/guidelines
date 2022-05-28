@@ -1,4 +1,4 @@
-# ESLint ES5
+# ES5 (ECMAScript5)
 
 ## Installation
 

@@ -1,4 +1,4 @@
-# ESLint ES6
+# ES6 (ECMAScript6)
 
 ## Installation
 
