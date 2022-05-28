@@ -209,3 +209,89 @@ Stylelint: Could not find "stylelint-config-prettier". Do you need a `configBase
 ```shell
 npm install --save-dev stylelint-csstree-validator
 ```
+
+## Integration with visual studio code
+
+Install through vscode extensions. Search for [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint){:target="_blank"}.
+
+**settings.json**
+
+```json
+{
+    "stylelint.enable": true,
+    "stylelint.validate": ["css", "less", "postcss"],
+    "stylelint.snippet": ["css", "less", "postcss"],
+
+    "css.validate": false,
+    "css.lint.emptyRules": "ignore",
+    "css.lint.unknownProperties": "ignore",
+
+    "[css]": {
+        "editor.formatOnSave": false,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.stylelint": true
+        }
+    },
+}
+```
+
+Enables or disables all validations.
+
+```json
+{
+    "css.validate": false,
+}
+```
+
+Do not use empty rulesets.
+
+```json
+{
+    "css.lint.emptyRules": "ignore",
+}
+```
+
+Unknown property.
+
+```json
+{
+    "css.lint.unknownProperties": "ignore",
+}
+```
+
+Control whether Stylelint is enabled or not.
+
+```json
+{
+    "stylelint.enable": true,
+}
+```
+
+An array of language ids which should be validated by Stylelint.
+
+```json
+{
+    "stylelint.validate": ["css", "less", "postcss"],
+}
+```
+
+An array of language ids which snippets are provided by Stylelint.
+
+```json
+{
+    "stylelint.snippet": ["css", "less", "postcss"],
+}
+```
+
+Configure settings to be overridden for the css language.
+
+```json
+{
+    "[css]": {
+        "editor.formatOnSave": false,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.stylelint": true
+        }
+    },
+}
+```
