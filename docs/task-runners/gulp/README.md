@@ -18,7 +18,7 @@ A toolkit to automate & enhance your workflow.
 │   └── script.min.js.map
 └── src/
     ├── assets/
-    │   ├── image/
+    │   ├── images/
     │   ├── js/
     │   └── scss/
     ├── data/
