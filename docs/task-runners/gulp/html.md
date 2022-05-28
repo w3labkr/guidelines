@@ -16,6 +16,14 @@ a gulp plugin for file include.
 npm install --save-dev gulp-file-include
 ```
 
+### [gulp-jsbeautifier](https://www.npmjs.com/package/gulp-jsbeautifier){:target="_blank"}
+
+Beautify js, css, html and json files using Gulp and <https://github.com/einars/js-beautify>{:target="_blank"}.
+
+```shell
+npm install --save-dev gulp-jsbeautifier
+```
+
 ### [gulp-imagemin](https://www.npmjs.com/package/gulp-imagemin){:target="_blank"}
 
 Minify PNG, JPEG, GIF and SVG images with imagemin
