@@ -34,6 +34,9 @@ Install through vscode extensions. Search for [ESLint](https://marketplace.visua
     "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
 
     "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
             "source.fixAll.eslint": true
         },
@@ -78,6 +81,9 @@ Configure settings to be overridden for the javascript language.
 ```json
 {
     "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
             "source.fixAll.eslint": true
         },

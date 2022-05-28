@@ -10,27 +10,14 @@ Install through vscode extensions. Search for [XML](https://marketplace.visualst
 
 **settings.json**
 
+Configure settings to be overridden for the xml language.
+
 ```json
 {
     "[xml]": {
         "editor.defaultFormatter": "redhat.vscode-xml",
+        "editor.tabSize": 4,
         "editor.formatOnSave": true
     },
-}
-```
-
-Defines a default formatter which takes precedence over all other formatter settings. Must be the identifier of an extension contributing a formatter.
-
-```json
-{
-    "editor.defaultFormatter": "redhat.vscode-xml",
-}
-```
-
-Format a file on save. A formatter must be available, the file must not be saved after delay, and the editor must not be shutting down.
-
-```json
-{
-    "editor.formatOnSave": true,
 }
 ```

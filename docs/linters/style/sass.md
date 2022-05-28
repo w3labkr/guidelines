@@ -257,6 +257,8 @@ Configure settings to be overridden for the scss language.
 ```json
 {
     "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 2,
         "editor.formatOnSave": false,
         "editor.codeActionsOnSave": {
             "source.fixAll.stylelint": true

@@ -227,6 +227,8 @@ Install through vscode extensions. Search for [Stylelint](https://marketplace.vi
     "css.lint.unknownProperties": "ignore",
 
     "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 2,
         "editor.formatOnSave": false,
         "editor.codeActionsOnSave": {
             "source.fixAll.stylelint": true
@@ -288,6 +290,8 @@ Configure settings to be overridden for the css language.
 ```json
 {
     "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 2,
         "editor.formatOnSave": false,
         "editor.codeActionsOnSave": {
             "source.fixAll.stylelint": true

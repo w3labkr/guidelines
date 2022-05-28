@@ -10,32 +10,17 @@ Install through vscode extensions. Search for [markdownlint](https://marketplace
 
 **settings.json**
 
+Configure settings to be overridden for the markdown language.
+
 ```json
 {
     "[markdown]": {
         "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+        "editor.tabSize": 4,
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
             "source.fixAll.markdownlint": true
         }
     },
-}
-```
-
-Format a file on save. A formatter must be available, the file must not be saved after delay, and the editor must not be shutting down.
-
-```json
-{
-    "editor.formatOnSave": true,
-}
-```
-
-Automatically fix violations when saving a Markdown document.
-
-```json
-{
-    "editor.codeActionsOnSave": {
-        "source.fixAll.markdownlint": true
-    }
 }
 ```
