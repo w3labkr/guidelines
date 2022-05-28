@@ -15,11 +15,20 @@ One place for all extensions for Visual Studio, Azure DevOps Services, Azure Dev
 
 **Essential extensions**
 
+- [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense){:target="_blank"}  
+  Visual Studio Code plugin that autocompletes filenames  
+
+- [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig){:target="_blank"}  
+  EditorConfig Support for Visual Studio Code.  
+
 - [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager){:target="_blank"}  
   Easily switch between projects  
 
 - [SFTP](https://marketplace.visualstudio.com/items?itemName=liximomo.sftp){:target="_blank"}  
   SFTP/FTP sync  
+
+- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer){:target="_blank"}  
+  Launch a development local Server with live reload feature for static & dynamic pages.  
 
 - [Autoprefixer](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-autoprefixer){:target="_blank"}  
   Parse CSS and add vendor prefixes automatically.  
@@ -32,9 +41,6 @@ One place for all extensions for Visual Studio, Azure DevOps Services, Azure Dev
 - [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons){:target="_blank"}  
   Icons for Visual Studio Code  
 
-- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer){:target="_blank"}  
-  Launch a development local Server with live reload feature for static & dynamic pages.  
-
 - [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag){:target="_blank"}  
   Automatically add HTML/XML close tag, same as Visual Studio IDE or Sublime Text  
 
@@ -46,9 +52,6 @@ One place for all extensions for Visual Studio, Azure DevOps Services, Azure Dev
 
 - [Indent 4-to-2](https://marketplace.visualstudio.com/items?itemName=Compulim.indent4to2){:target="_blank"}  
   Convert indentation from tab or 4 spaces into 2 spaces  
-
-- [XML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml){:target="_blank"}  
-  XML Language Support by Red Hat  
 
 - [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv){:target="_blank"}  
   Highlight CSV and TSV files, Run SQL-like queries  
