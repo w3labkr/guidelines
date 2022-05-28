@@ -78,6 +78,16 @@ Install through vscode extensions. Search for [Prettier - Code formatter](https:
         "editor.tabSize": 2,
         "editor.formatOnSave": true
     },
+    "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+        "editor.tabSize": 4,
+        "editor.formatOnSave": true
+    },
+    "[xml]": {
+        "editor.defaultFormatter": "redhat.vscode-xml",
+        "editor.tabSize": 4,
+        "editor.formatOnSave": true
+    },
 }
 ```
 
@@ -100,6 +110,30 @@ Configure settings to be overridden for the javascript language.
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.tabSize": 2,
+        "editor.formatOnSave": true
+    },
+}
+```
+
+Configure settings to be overridden for the markdown language.
+
+```json
+{
+    "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+        "editor.tabSize": 4,
+        "editor.formatOnSave": true
+    },
+}
+```
+
+Configure settings to be overridden for the xml language.
+
+```json
+{
+    "[xml]": {
+        "editor.defaultFormatter": "redhat.vscode-xml",
+        "editor.tabSize": 4,
         "editor.formatOnSave": true
     },
 }
