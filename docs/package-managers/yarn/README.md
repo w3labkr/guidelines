@@ -70,7 +70,7 @@ yarn install
 Install packages globally on your operating system.
 
 ```shell
-yarn add global <package...>
+yarn add global [package]
 ```
 
 Installs a package and any packages that it depends on.
@@ -78,6 +78,24 @@ Installs a package and any packages that it depends on.
 ```shell
 yarn add [package]
 yarn add [package] --dev
+```
+
+Upgrades packages to their latest version based on the specified range.
+
+```shell
+yarn upgrade
+yarn upgrade left-pad
+yarn upgrade left-pad@^1.0.0
+yarn upgrade left-pad grunt
+yarn upgrade @angular
+```
+
+yarn upgrade --pattern <pattern> will upgrade all packages that match the pattern.
+
+```shell
+yarn upgrade --pattern gulp
+yarn upgrade left-pad --pattern "gulp|grunt"
+yarn upgrade --latest --pattern "gulp-(match|newer)"
 ```
 
 Removes an unused package from your current package.
@@ -90,6 +108,12 @@ Upgrade Dependencies To The Latest Versions Using Yarn.
 
 ```shell
 yarn up [package]
+```
+
+Running this command will clear the global cache.
+
+```shell
+yarn cache clean
 ```
 
 Upgrade all the packages in your package.json to the latest version
