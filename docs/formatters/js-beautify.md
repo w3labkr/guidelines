@@ -8,6 +8,7 @@ Beautifier for javascript.
 ## Installation
 
 ```shell
+npm -g install js-beautify
 npm install --save-dev js-beautify
 ```
 
