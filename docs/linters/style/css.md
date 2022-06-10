@@ -47,7 +47,7 @@ npm install --save-dev prettier stylelint stylelint-config-prettier stylelint-co
 ### [stylelint-config-recommended](https://www.npmjs.com/package/stylelint-config-recommended){:target="_blank"}
 
 The recommended shareable config for Stylelint
-  
+
 ```shell
 npm install --save-dev stylelint-config-recommended
 ```

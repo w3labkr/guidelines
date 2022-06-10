@@ -4,6 +4,8 @@ sort: 7
 
 # Source Code Editors
 
+## Table of Contents
+
 {% include list.liquid all=true %}
 
 ## EditorConfig

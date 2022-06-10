@@ -8,7 +8,6 @@ Beautifier for javascript.
 ## Installation
 
 ```shell
-npm -g install js-beautify
 npm install --save-dev js-beautify
 ```
 
@@ -124,4 +123,36 @@ Configure settings to be overridden for the html language.
         "editor.formatOnSave": true
     },
 }
+```
+
+## Integration with Git Hooks
+
+You need to install the husky and lint-staged node packages. See [here](/docs/version-control-systems/git/git-hooks.html) for more information.
+
+```shell
+npm -g install js-beautify
+```
+
+```json
+{
+    "lint-staged": {
+        "*.{htm, html}": [
+            "js-beautify --type 'html' --replace"
+        ]
+    }
+}
+```
+
+You need to install the pre-commit python packages. See [here](/docs/version-control-systems/git/pre-commit.html) for more information.
+
+```yaml
+repos:
+  - repo: https://github.com/aufdenpunkt/pre-commit-js-beautify
+    rev: 1.13.0
+    hooks:
+      - id: js-beautify
+        additional_dependencies: ["js-beautify@1.14.3"]
+        language: node
+        files: \.(htm|html)$
+        args: ["--replace"]
 ```

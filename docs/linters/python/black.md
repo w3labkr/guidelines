@@ -2,13 +2,34 @@
 
 The uncompromising Python code formatter.
 
-- [https://black.readthedocs.io/en/stable/](https://black.readthedocs.io/en/stable/){:target="_blank"}
-- [https://github.com/psf/black](https://github.com/psf/black){:target="_blank"}
+- [black.readthedocs.io/en/stable/](https://black.readthedocs.io/en/stable/){:target="_blank"}
+- [github.com/psf/black](https://github.com/psf/black){:target="_blank"}
 
 ## Installation
 
 ```shell
 pip install black
+```
+
+Jupyter Notebooks
+
+```shell
+pip install 'black[jupyter]'
+```
+
+## Comment
+
+It doesn’t reformat blocks that start with # fmt: off and end with `# fmt: on`, or lines that ends with `# fmt: skip`. `# fmt: on/off` have to be on the same level of indentation.
+
+```python
+# fmt: off
+
+j = [1,
+     2,
+     3
+]
+
+# fmt: on
 ```
 
 ## Integration with visual studio code
@@ -18,6 +39,7 @@ pip install black
 ```json
 {
     "python.formatting.provider": "black",
+    "python.formatting.blackArgs": ["--line-length", "88"],
 
     "[python]": {
         "editor.defaultFormatter": "ms-python.python",
@@ -35,6 +57,14 @@ Provider for formatting. Possible options include 'autopep8', 'black', and 'yapf
 }
 ```
 
+Arguments passed in. Each argument is as separate item in the array.
+
+```json
+{
+    "python.formatting.blackArgs": ["--line-length", "88"],
+}
+```
+
 Configure settings to be overridden for the python language.
 
 ```json
@@ -45,4 +75,18 @@ Configure settings to be overridden for the python language.
         "editor.formatOnSave": true,
     },
 }
+```
+
+## Integration with Git Hooks
+
+You need to install the pre-commit python packages. See [here](/docs/version-control-systems/git/pre-commit.html) for more information.
+
+```yaml
+repos:
+  - repo: https://github.com/psf/black
+    rev: 22.3.0
+    hooks:
+      - id: black
+        language_version: python3.9
+        args: ["--line-length=88"]
 ```

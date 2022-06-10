@@ -60,6 +60,14 @@ Open Kernel Options in your Jupyter notebook and change the interpreter.
 
 ### Troubleshooting
 
+Python command not found.
+
+```shell
+$ vim ~/.bashrc
+alias python="$(pyenv which python)"
+alias pip="$(pyenv which pip)"
+```
+
 If the virtual environment does not appear in the interpreter, reopen the file or terminal.
 
 ## Commands

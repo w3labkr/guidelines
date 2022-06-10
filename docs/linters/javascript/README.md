@@ -17,6 +17,8 @@ npm install --save-dev eslint
 
 This can be in the form of an .eslintrc.* file or an eslintConfig field in a package.json file, both of which ESLint will look for and read automatically.
 
+## Table of Contents
+
 {% include list.liquid all=true %}
 
 ## Integration with visual studio code
@@ -31,7 +33,7 @@ Install through vscode extensions. Search for [ESLint](https://marketplace.visua
     "javascript.validate.enable": false,
 
     "eslint.format.enable": true,
-    "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+    "eslint.validate": ["javascript", "javascriptreact"],
 
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -72,7 +74,7 @@ An array of language ids which should be validated by ESLint. If not installed E
 
 ```json
 {
-    "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+    "eslint.validate": ["javascript", "javascriptreact"],
 }
 ```
 
@@ -89,4 +91,37 @@ Configure settings to be overridden for the javascript language.
         },
     },
 }
+```
+
+## Integration with Git Hooks
+
+You need to install the husky and lint-staged node packages. See [here](/docs/version-control-systems/git/git-hooks.html) for more information.
+
+```json
+{
+    "lint-staged": {
+        "*.{js, jsx}": [
+            "eslint --fix"
+        ]
+    }
+}
+```
+
+You need to install the pre-commit python packages. See [here](/docs/version-control-systems/git/pre-commit.html) for more information.
+
+```yaml
+repos:
+  - repo: https://github.com/pre-commit/mirrors-eslint
+    rev: v8.17.0
+    hooks:
+      - id: eslint
+        additional_dependencies:
+          - eslint@8.13.0
+          - eslint-config-prettier@8.5.0
+          - eslint-plugin-import@2.26.0
+          - eslint-plugin-prettier@4.0.0
+        language: node
+        files: \.(js|jsx)$
+        types: [file]
+        args: ["--fix"]
 ```

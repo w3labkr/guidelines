@@ -4,6 +4,8 @@ sort: 10
 
 # Version Control Systems
 
+## Table of Contents
+
 {% include list.liquid all=true %}
 
 ## Software Versioning

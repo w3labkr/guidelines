@@ -59,3 +59,56 @@ To exclude files from formatting, create a .prettierignore file in the root of y
 # Ignore specific files:
 #...
 ```
+
+## Ignoring Code
+
+HTML
+
+```html
+<!-- prettier-ignore -->
+```
+
+CSS
+
+```css
+/* prettier-ignore */
+```
+
+javascript
+
+```javascript
+// prettier-ignore
+```
+
+JSX
+
+```javascript
+{/* prettier-ignore */}
+```
+
+YAML
+
+```yaml
+# prettier-ignore
+```
+
+## Integration with Git Hooks
+
+You need to install the husky and lint-staged node packages. See [here](/docs/version-control-systems/git/git-hooks.html) for more information.
+
+```shell
+npm -g install prettier
+```
+
+```json
+{
+    "lint-staged": {
+        "*.{css, scss, less, postcss}": [
+            "prettier --write"
+        ],
+        "*.{js, jsx, ts, tsx}": [
+            "prettier --write"
+        ]
+    }
+}
+```
