@@ -2,9 +2,10 @@ title: W3LabKr
 description: W3LabKr Guidelines
 
 theme: null
+baseurl: /guidelines
 
 google:
-  gtag: 'UA-178473923-2'
+  gtag: "UA-178473923-2"
 
 # debug:
 #   compress: true

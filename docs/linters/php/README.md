@@ -6,7 +6,7 @@
 
 ## Integration with Git Hooks
 
-You need to install the husky and lint-staged node packages. See [here](/docs/version-control-systems/git/git-hooks.html) for more information.
+You need to install the husky and lint-staged node packages. See [here]({{ site.baseurl }}/docs/version-control-systems/git/git-hooks.html) for more information.
 
 ```json
 {

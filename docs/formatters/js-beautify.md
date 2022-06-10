@@ -127,7 +127,7 @@ Configure settings to be overridden for the html language.
 
 ## Integration with Git Hooks
 
-You need to install the husky and lint-staged node packages. See [here](/docs/version-control-systems/git/git-hooks.html) for more information.
+You need to install the husky and lint-staged node packages. See [here]({{ site.baseurl }}/docs/version-control-systems/git/git-hooks.html) for more information.
 
 ```shell
 npm -g install js-beautify
@@ -143,7 +143,7 @@ npm -g install js-beautify
 }
 ```
 
-You need to install the pre-commit python packages. See [here](/docs/version-control-systems/git/pre-commit.html) for more information.
+You need to install the pre-commit python packages. See [here]({{ site.baseurl }}/docs/version-control-systems/git/pre-commit.html) for more information.
 
 ```yaml
 repos:
