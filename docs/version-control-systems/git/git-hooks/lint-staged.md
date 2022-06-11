@@ -12,6 +12,11 @@ Run linters on git staged files.
 
 ```shell
 npm install --save-dev lint-staged
+```
+
+Add a hook:
+
+```shell
 npx husky add .husky/pre-commit "npx lint-staged --allow-empty"
 ```
 
@@ -49,3 +54,14 @@ Good
     }
 }
 ```
+
+## Integration with Formatter
+
+- [js-beautify]({{ site.baseurl }}/docs/formatters/js-beautify.html)
+- [prettier]({{ site.baseurl }}/docs/formatters/prettier.html)
+
+## Integration with Linter
+
+- [stylelint]({{ site.baseurl }}/docs/linters/style/README.html)
+- [eslint]({{ site.baseurl }}/docs/linters/javascript/README.html)
+- [php-cs-fixer]({{ site.baseurl }}/docs/linters/php/php-cs-fixer.html)

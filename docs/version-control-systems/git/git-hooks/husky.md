@@ -1,4 +1,4 @@
-# Husky
+# husky
 
 Modern native git hooks made easy. You can use it to lint your commit messages, run tests, lint code, etc... when you commit or push.
 
@@ -7,16 +7,10 @@ Modern native git hooks made easy. You can use it to lint your commit messages, 
 
 ## Installation
 
-```shell
-npm install --save-dev husky
-npm set-script prepare "husky install"
-npm run prepare
-```
-
-After clone repository:
+`husky-init` is a one-time command to quickly initialize a project with husky.
 
 ```shell
-npm install && npm run prepare
+npx husky-init && npm install
 ```
 
 ## Uninstallation
@@ -30,11 +24,23 @@ npm uninstall husky && git config --unset core.hooksPath
 ```json
 {
     "husky": {
-        "hooks": {
-            "pre-commit": ""
-        }
+        "hooks": {}
     },
 }
+```
+
+## Git-flow
+
+If using git-flow you need to ensure your git-flow hooks directory is set to use Husky's (`.husky` by default).
+
+```shell
+git config gitflow.path.hooks .husky
+```
+
+To revert the git-flow hooks directory back to its default you need to reset the config to point to the default Git hooks directory.
+
+```shell
+git config gitflow.path.hooks .git/hooks
 ```
 
 ## Troubleshooting

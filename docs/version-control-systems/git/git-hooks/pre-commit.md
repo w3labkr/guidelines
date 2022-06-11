@@ -2,7 +2,7 @@
 
 A framework for managing and maintaining multi-language pre-commit hooks.
 
-- [pre-commit.com/](https://pre-commit.com/){:target="_blank"}
+- [pre-commit.com](https://pre-commit.com/){:target="_blank"}
 - [github.com/pre-commit/pre-commit](https://github.com/pre-commit/pre-commit){:target="_blank"}
 
 ## Installation
@@ -35,3 +35,11 @@ repos:
 ## Supported Hooks
 
 [pre-commit.com/hooks.html](https://pre-commit.com/hooks.html){:target="_blank"}
+
+## Integration with Formatter
+
+- [black]({{ site.baseurl }}/docs/formatters/black.html)
+
+## Integration with Linter
+
+- [flake8]({{ site.baseurl }}/docs/linters/python/flake8.html)
