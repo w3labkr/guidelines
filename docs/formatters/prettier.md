@@ -94,7 +94,7 @@ YAML
 
 ## Integration with Git Hooks
 
-You need to install the husky and lint-staged node packages. See [here]({{ site.baseurl }}/docs/version-control-systems/git/git-hooks.html) for more information.
+Javascript requires the [husky]({{ site.baseurl }}/docs/version-control-systems/git/husky.html) and [lint-staged]({{ site.baseurl }}/docs/version-control-systems/git/lint-staged.html) packages to be installed.
 
 ```shell
 npm -g install prettier
@@ -111,4 +111,18 @@ npm -g install prettier
         ]
     }
 }
+```
+
+To use Python, you need to install the [pre-commit]({{ site.baseurl }}/docs/version-control-systems/git/pre-commit.html) package.
+
+```yaml
+repos:
+  - repo: https://github.com/pre-commit/mirrors-prettier
+    rev: v2.6.2
+    hooks:
+      - id: prettier
+        additional_dependencies: ["prettier@2.6.2"]
+        language: node
+        files: \.(css|scss|sass|js|jsx)$
+        args: ["--write"]
 ```

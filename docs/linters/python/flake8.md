@@ -59,7 +59,7 @@ Whether to lint Python files when saved.
 
 ## Integration with Git Hooks
 
-You need to install the pre-commit python packages. See [here]({{ site.baseurl }}/docs/version-control-systems/git/pre-commit.html) for more information.
+To use Python, you need to install the [pre-commit]({{ site.baseurl }}/docs/version-control-systems/git/pre-commit.html) package.
 
 ```yaml
 repos:

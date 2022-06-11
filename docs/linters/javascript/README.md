@@ -95,7 +95,7 @@ Configure settings to be overridden for the javascript language.
 
 ## Integration with Git Hooks
 
-You need to install the husky and lint-staged node packages. See [here]({{ site.baseurl }}/docs/version-control-systems/git/git-hooks.html) for more information.
+Javascript requires the [husky]({{ site.baseurl }}/docs/version-control-systems/git/husky.html) and [lint-staged]({{ site.baseurl }}/docs/version-control-systems/git/lint-staged.html) packages to be installed.
 
 ```json
 {
@@ -107,7 +107,7 @@ You need to install the husky and lint-staged node packages. See [here]({{ site.
 }
 ```
 
-You need to install the pre-commit python packages. See [here]({{ site.baseurl }}/docs/version-control-systems/git/pre-commit.html) for more information.
+To use Python, you need to install the [pre-commit]({{ site.baseurl }}/docs/version-control-systems/git/pre-commit.html) package.
 
 ```yaml
 repos:
