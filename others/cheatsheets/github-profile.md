@@ -1,10 +1,8 @@
-# Github
-
-## Profile
+# Github Profile
 
 Create a new repository with your username. Then create a new README.md file.
 
-### Badges
+## Badges
 
 Improve your README.md profile with these amazing badges.
 
@@ -14,7 +12,7 @@ Improve your README.md profile with these amazing badges.
 
 [github.com/alexandresanlim/Badges4-README.md-Profile](https://github.com/alexandresanlim/Badges4-README.md-Profile){:target="_blank"}
 
-### Statistics
+## Statistics
 
 Dynamically generated stats for your github readmes
 
