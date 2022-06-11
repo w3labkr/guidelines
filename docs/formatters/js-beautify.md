@@ -2,7 +2,7 @@
 
 Beautifier for javascript.
 
-- [beautifier.io/](https://beautifier.io/){:target="_blank"}
+- [beautifier.io](https://beautifier.io/){:target="_blank"}
 - [github.com/beautify-web/js-beautify](https://github.com/beautify-web/js-beautify){:target="_blank"}
 
 ## Installation
@@ -127,7 +127,7 @@ Configure settings to be overridden for the html language.
 
 ## Integration with Git Hooks
 
-Javascript requires the [husky]({{ site.baseurl }}/docs/version-control-systems/git/husky.html) and [lint-staged]({{ site.baseurl }}/docs/version-control-systems/git/lint-staged.html) packages to be installed.
+Javascript requires the [husky]({{ site.baseurl }}/docs/version-control-systems/git/git-hooks/husky.html) and [lint-staged]({{ site.baseurl }}/docs/version-control-systems/git/git-hooks/lint-staged.html) packages to be installed.
 
 ```shell
 npm -g install js-beautify
@@ -143,7 +143,7 @@ npm -g install js-beautify
 }
 ```
 
-To use Python, you need to install the [pre-commit]({{ site.baseurl }}/docs/version-control-systems/git/pre-commit.html) package.
+To use Python, you need to install the [pre-commit]({{ site.baseurl }}/docs/version-control-systems/git/git-hooks/pre-commit.html) package.
 
 ```yaml
 repos:

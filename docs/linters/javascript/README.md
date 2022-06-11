@@ -1,10 +1,8 @@
 # Javascript
 
-## ESLint
-
 Find and fix problems in your JavaScript code.
 
-- [eslint.org/](https://eslint.org/){:target="_blank"}
+- [eslint.org](https://eslint.org/){:target="_blank"}
 - [github.com/eslint/eslint](https://github.com/eslint/eslint){:target="_blank"}
 
 ## Installation
@@ -95,7 +93,7 @@ Configure settings to be overridden for the javascript language.
 
 ## Integration with Git Hooks
 
-Javascript requires the [husky]({{ site.baseurl }}/docs/version-control-systems/git/husky.html) and [lint-staged]({{ site.baseurl }}/docs/version-control-systems/git/lint-staged.html) packages to be installed.
+Javascript requires the [husky]({{ site.baseurl }}/docs/version-control-systems/git/git-hooks/husky.html) and [lint-staged]({{ site.baseurl }}/docs/version-control-systems/git/git-hooks/lint-staged.html) packages to be installed.
 
 ```json
 {
@@ -107,7 +105,7 @@ Javascript requires the [husky]({{ site.baseurl }}/docs/version-control-systems/
 }
 ```
 
-To use Python, you need to install the [pre-commit]({{ site.baseurl }}/docs/version-control-systems/git/pre-commit.html) package.
+To use Python, you need to install the [pre-commit]({{ site.baseurl }}/docs/version-control-systems/git/git-hooks/pre-commit.html) package.
 
 ```yaml
 repos:

@@ -1,10 +1,8 @@
 # Style
 
-## Stylelint
-
 A mighty, modern linter that helps you avoid errors and enforce conventions in your styles.
 
-- [stylelint.io/](https://stylelint.io/){:target="_blank"}
+- [stylelint.io](https://stylelint.io/){:target="_blank"}
 - [github.com/stylelint/stylelint](https://github.com/stylelint/stylelint){:target="_blank"}
 
 ## Installation
@@ -23,7 +21,7 @@ The .stylelintrc file (without extension) can be in JSON or YAML format.
 
 ## Integration with Git Hooks
 
-Javascript requires the [husky]({{ site.baseurl }}/docs/version-control-systems/git/husky.html) and [lint-staged]({{ site.baseurl }}/docs/version-control-systems/git/lint-staged.html) packages to be installed.
+Javascript requires the [husky]({{ site.baseurl }}/docs/version-control-systems/git/git-hooks/husky.html) and [lint-staged]({{ site.baseurl }}/docs/version-control-systems/git/git-hooks/lint-staged.html) packages to be installed.
 
 ```json
 {
@@ -35,7 +33,7 @@ Javascript requires the [husky]({{ site.baseurl }}/docs/version-control-systems/
 }
 ```
 
-To use Python, you need to install the [pre-commit]({{ site.baseurl }}/docs/version-control-systems/git/pre-commit.html) package.
+To use Python, you need to install the [pre-commit]({{ site.baseurl }}/docs/version-control-systems/git/git-hooks/pre-commit.html) package.
 
 ```yaml
 repos:

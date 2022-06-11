@@ -2,7 +2,7 @@
 
 The uncompromising Python code formatter.
 
-- [black.readthedocs.io/en/stable/](https://black.readthedocs.io/en/stable/){:target="_blank"}
+- [black.readthedocs.io/en/stable](https://black.readthedocs.io/en/stable/){:target="_blank"}
 - [github.com/psf/black](https://github.com/psf/black){:target="_blank"}
 
 ## Installation
@@ -79,7 +79,7 @@ Configure settings to be overridden for the python language.
 
 ## Integration with Git Hooks
 
-To use Python, you need to install the [pre-commit]({{ site.baseurl }}/docs/version-control-systems/git/pre-commit.html) package.
+To use Python, you need to install the [pre-commit]({{ site.baseurl }}/docs/version-control-systems/git/git-hooks/pre-commit.html) package.
 
 ```yaml
 repos:
