@@ -3,6 +3,10 @@
 - [1](https://1){:target="_blank"}
 - [2](https://2){:target="_blank"}
 
+## Table of Contents
+
+{% include list.liquid all=true %}
+
 ## Installation
 
 ```shell
@@ -38,7 +42,7 @@ Install through vscode extensions. Search for [Stylelint](https://marketplace.vi
 ```json
 ```
 
-## Extensions
+### Extensions
 
 **Essential extensions**
 
