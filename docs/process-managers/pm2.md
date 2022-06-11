@@ -2,7 +2,7 @@
 
 Node.js Production Process Manager with a built-in Load Balancer.
 
-- [pm2.keymetrics.io/](https://pm2.keymetrics.io/){:target="_blank"}
+- [pm2.keymetrics.io](https://pm2.keymetrics.io/){:target="_blank"}
 - [github.com/Unitech/pm2](https://github.com/Unitech/pm2){:target="_blank"}
 
 ## Installation

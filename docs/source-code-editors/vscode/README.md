@@ -2,7 +2,7 @@
 
 Visual Studio Code is a distribution of the Code.
 
-- [code.visualstudio.com/](https://code.visualstudio.com/){:target="_blank"}
+- [code.visualstudio.com](https://code.visualstudio.com/){:target="_blank"}
 - [github.com/microsoft/vscode](https://github.com/microsoft/vscode){:target="_blank"}
 
 ## Marketplace

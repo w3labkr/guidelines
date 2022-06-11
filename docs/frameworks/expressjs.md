@@ -2,5 +2,5 @@
 
 Fast, unopinionated, minimalist web framework for node.
 
-- [expressjs.com/](https://expressjs.com/){:target="_blank"}
+- [expressjs.com](https://expressjs.com/){:target="_blank"}
 - [github.com/expressjs/express](https://github.com/expressjs/express){:target="_blank"}

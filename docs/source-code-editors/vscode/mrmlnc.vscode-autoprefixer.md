@@ -2,7 +2,7 @@
 
 Parse CSS and add vendor prefixes to rules by Can I Use.
 
-- [autoprefixer.github.io/](https://autoprefixer.github.io/){:target="_blank"}
+- [autoprefixer.github.io](https://autoprefixer.github.io/){:target="_blank"}
 - [github.com/postcss/autoprefixer](https://github.com/postcss/autoprefixer){:target="_blank"}
 
 ## Installation
