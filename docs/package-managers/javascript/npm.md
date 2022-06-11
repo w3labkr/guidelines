@@ -2,14 +2,14 @@
 
 the package manager for JavaScript
 
-- [www.npmjs.com](https://www.npmjs.com/){:target="_blank"}
+- [npmjs.com](https://www.npmjs.com/){:target="_blank"}
 - [github.com/npm/cli](https://github.com/npm/cli){:target="_blank"}
 
-## NPM Trends
+## Trends
 
 NPM package comparison
 
-[www.npmtrends.com](https://www.npmtrends.com/){:target="_blank"}
+[npmtrends.com](https://www.npmtrends.com/){:target="_blank"}
 
 ## Packages
 

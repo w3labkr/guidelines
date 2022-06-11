@@ -2,7 +2,7 @@
 
 Fast, reliable, and secure dependency management.
 
-- [yarnpkg.com/](https://yarnpkg.com/){:target="_blank"}
+- [yarnpkg.com](https://yarnpkg.com/){:target="_blank"}
 - [github.com/yarnpkg/yarn](https://github.com/yarnpkg/yarn){:target="_blank"}
 
 ## Installation

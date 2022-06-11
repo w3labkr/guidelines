@@ -1,8 +1,8 @@
-# composer
+# Composer
 
 Dependency Manager for PHP
 
-- [getcomposer.org/](https://getcomposer.org/){:target="_blank"}
+- [getcomposer.org](https://getcomposer.org/){:target="_blank"}
 - [github.com/composer/composer](https://github.com/composer/composer){:target="_blank"}
 
 ## Installation
@@ -32,7 +32,7 @@ composer -V
 
 The PHP Package Repository
 
-[packagist.org/](https://packagist.org/){:target="_blank"}
+[packagist.org](https://packagist.org/){:target="_blank"}
 
 ## Usage
 
@@ -74,4 +74,4 @@ composer global require vendor/package
 
 ## Command Reference
 
-[getcomposer.org/doc/](https://getcomposer.org/doc/){:target="_blank"}
+[getcomposer.org/doc](https://getcomposer.org/doc/){:target="_blank"}
