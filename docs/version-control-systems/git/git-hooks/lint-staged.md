@@ -57,11 +57,12 @@ Good
 
 ## Integration with Formatter
 
-- [js-beautify]({{ site.baseurl }}/docs/formatters/js-beautify.html)
-- [prettier]({{ site.baseurl }}/docs/formatters/prettier.html)
+- [js-beautify]({{ site.baseurl }}/docs/formatters/js-beautify.html#integration-with-git-hooks)
+- [prettier]({{ site.baseurl }}/docs/formatters/prettier.html#integration-with-git-hooks)
 
 ## Integration with Linter
 
-- [stylelint]({{ site.baseurl }}/docs/linters/style/README.html)
-- [eslint]({{ site.baseurl }}/docs/linters/javascript/README.html)
-- [php-cs-fixer]({{ site.baseurl }}/docs/linters/php/php-cs-fixer.html)
+- [style]({{ site.baseurl }}/docs/linters/style/#integration-with-git-hooks)
+- [Javascript]({{ site.baseurl }}/docs/linters/javascript/#integration-with-git-hooks)
+- [php-cs-fixer]({{ site.baseurl }}/docs/linters/php/php-cs-fixer.html#integration-with-git-hooks)
+- [commitlint](commitlint.html#integration-with-husky)

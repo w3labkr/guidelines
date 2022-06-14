@@ -38,8 +38,13 @@ repos:
 
 ## Integration with Formatter
 
-- [black]({{ site.baseurl }}/docs/formatters/black.html)
+- [black]({{ site.baseurl }}/docs/formatters/black.html#integration-with-git-hooks)
+- [js-beautify]({{ site.baseurl }}/docs/formatters/js-beautify.html#integration-with-git-hooks)
+- [prettier]({{ site.baseurl }}/docs/formatters/prettier.html#integration-with-git-hooks)
 
 ## Integration with Linter
 
-- [flake8]({{ site.baseurl }}/docs/linters/python/flake8.html)
+- [flake8]({{ site.baseurl }}/docs/linters/python/flake8.html#integration-with-git-hooks)
+- [style]({{ site.baseurl }}/docs/linters/style/#integration-with-git-hooks)
+- [Javascript]({{ site.baseurl }}/docs/linters/javascript/#integration-with-git-hooks)
+- [commitlint](commitlint.html#integration-with-pre-commit)
