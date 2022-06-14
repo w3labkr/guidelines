@@ -126,7 +126,7 @@ return (new PhpCsFixer\Config())
 
 Install through vscode extensions. Search for [php cs fixer](https://marketplace.visualstudio.com/items?itemName=junstyle.php-cs-fixer){:target="_blank"}.
 
-**settings.json**
+`settings.json`
 
 ```json
 {

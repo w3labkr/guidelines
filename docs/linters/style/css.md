@@ -214,7 +214,7 @@ npm install --save-dev stylelint-csstree-validator
 
 Install through vscode extensions. Search for [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint){:target="_blank"}.
 
-**settings.json**
+`settings.json`
 
 ```json
 {

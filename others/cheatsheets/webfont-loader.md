@@ -2,7 +2,7 @@
 
 Web Font Loader gives you added control when using linked fonts via @font-face.
 
-[github.com/typekit/webfontloader](https://github.com/typekit/webfontloader){:target="_blank"}
+- [github.com/typekit/webfontloader](https://github.com/typekit/webfontloader){:target="_blank"}
 
 You could load fonts from Google Fonts using the Web Font Loader hosted on Google Hosted Libraries using the following code.
 

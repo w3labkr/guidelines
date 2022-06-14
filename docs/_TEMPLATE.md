@@ -37,18 +37,18 @@
 
 Install through vscode extensions. Search for [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint){:target="_blank"}.
 
-**settings.json**
+`settings.json`
 
 ```json
 ```
 
 ### Extensions
 
-**Essential extensions**
+Essential extensions
 
 - [1](https://1){:target="_blank"}
 
-**Recommended extensions**
+Recommended extensions
 
 - [1](https://1){:target="_blank"}
 

@@ -64,7 +64,7 @@ Ignore Line exceeds maximum limit of characters.
 
 Install through vscode extensions. Search for [phpcs](https://marketplace.visualstudio.com/items?itemName=ikappas.phpcs){:target="_blank"}.
 
-**settings.json**
+`settings.json`
 
 ```json
 {

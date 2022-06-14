@@ -8,7 +8,7 @@ Provides formatting for the HTML code in PHP files using JSbeautify - Works well
 
 Install through vscode extensions. Search for [Format HTML in PHP](https://marketplace.visualstudio.com/items?itemName=rifi2k.format-html-in-php){:target="_blank"}.
 
-**settings.json**
+`settings.json`
 
 ```json
 {

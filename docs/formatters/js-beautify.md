@@ -50,7 +50,7 @@ Loading settings from environment or .jsbeautifyrc
 
 Install through vscode extensions. Search for [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify){:target="_blank"}.
 
-**settings.json**
+`settings.json`
 
 ```json
 {

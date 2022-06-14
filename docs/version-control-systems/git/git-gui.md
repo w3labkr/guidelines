@@ -6,11 +6,11 @@ A Git GUI that offers a visual representation of your repositories. Sourcetree i
 
 [sourcetreeapp.com](https://www.sourcetreeapp.com/){:target="_blank"}
 
-**Essential Options**
+Essential Options
 
 - Preferences > Advanced > Allow force push
 
-**Recommended Options**
+Recommended Options
 
 - Preferences > Advanced > Always display full console output
 

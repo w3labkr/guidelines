@@ -7,7 +7,7 @@ Fast, reliable, and secure dependency management.
 
 ## Installation
 
-**Node.js >=16.10**
+`Node.js >=16.10`
 
 Corepack is included by default with all Node.js installs, but is currently opt-in. To enable it, run the following command:
 
@@ -15,15 +15,13 @@ Corepack is included by default with all Node.js installs, but is currently opt-
 corepack enable
 ```
 
-**Node.js <16.10**
+`Node.js <16.10`
 
 Corepack isn't included with Node.js in versions before the 16.10; to address that, run:
 
 ```shell
 npm i -g corepack
 ```
-
-**Updating to the latest versions**
 
 Any time you'll want to update Yarn to the latest version, just run:
 

@@ -10,7 +10,7 @@ Fully automated version management and package publishing.
 Recommend installing semantic-release locally.
 
 ```shell
-npm install --save-dev semantic-release
+npm install --save-dev semantic-release @semantic-release/changelog
 ```
 
 And running the semantic-release command with npx:
@@ -21,17 +21,23 @@ npx semantic-release
 
 ## Configuration
 
-.releaserc.yml
+A `.releaserc` file, written in YAML or JSON, with optional extensions: `.yaml`/`.yml`/`.json`/`.js`
+
+```json
+{
+    "branches": ["master", "next"],
+    "plugins": [
+        "@semantic-release/commit-analyzer",
+        "@semantic-release/release-notes-generator",
+        "@semantic-release/changelog",
+        "@semantic-release/npm",
+        "@semantic-release/git"
+    ]
+}
+```
+
+Via CLI argument:
 
 ```shell
-{
-  "plugins":
-    [
-      "@semantic-release/commit-analyzer",
-      "@semantic-release/release-notes-generator",
-      "@semantic-release/npm",
-      "@semantic-release/github",
-    ],
-  "branches": ["main"],
-}
+npx semantic-release --branches next
 ```

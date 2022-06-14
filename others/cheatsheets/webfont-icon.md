@@ -4,7 +4,7 @@
 
 Official open source SVG icon library for Bootstrap.
 
-[icons.getbootstrap.com/](https://icons.getbootstrap.com/){:target="_blank"}
+- [icons.getbootstrap.com](https://icons.getbootstrap.com/){:target="_blank"}
 
 Bootstrap Icons are published to npm, but they can also be manually downloaded if needed.
 

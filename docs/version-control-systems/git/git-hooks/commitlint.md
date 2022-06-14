@@ -21,17 +21,17 @@ fix(server): send cors headers
 
 Common types according to [commitlint-config-conventional](https://github.com/conventional-changelog/commitlint/tree/master/@commitlint/config-conventional){:target="_blank"} can be:
 
-- build
-- chore
-- ci
-- docs
-- feat
-- fix
-- perf
-- refactor
-- revert
-- style
-- test
+- build: Builds - Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
+- chore: Chores - Other changes that don't modify src or test files
+- ci: Continuous Integrations - Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)
+- docs: Documentation - Documentation only changes
+- feat: Features - A new feature
+- fix: Bug Fixes - A bug fix
+- perf: Performance Improvements - A code change that improves performance
+- refactor: Code Refactoring - A code change that neither fixes a bug nor adds a feature
+- revert: Reverts - Reverts a previous commit
+- style: Styles - Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
+- test: Tests - Adding missing tests or correcting existing tests
 
 ## Integration with husky
 

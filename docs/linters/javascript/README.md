@@ -23,7 +23,7 @@ This can be in the form of an .eslintrc.* file or an eslintConfig field in a pac
 
 Install through vscode extensions. Search for [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint){:target="_blank"}.
 
-**settings.json**
+`settings.json`
 
 ```json
 {

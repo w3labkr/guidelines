@@ -11,7 +11,7 @@ Install through vscode extensions. Search for [Autoprefixer](https://marketplace
 
 ## Configuration
 
-**settings.json**
+`settings.json`
 
 ```json
 {

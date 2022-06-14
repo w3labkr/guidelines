@@ -13,7 +13,7 @@ NPM package comparison
 
 ## Packages
 
-**Essential packages**
+Essential packages
 
 {% include list.liquid all=true %}
 

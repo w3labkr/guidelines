@@ -23,7 +23,7 @@ extend-ignore = E203
 
 ## Integration with visual studio code
 
-**settings.json**
+`settings.json`
 
 ```json
 {

@@ -8,7 +8,7 @@ Editing XML in Visual Studio Code made easy
 
 Install through vscode extensions. Search for [XML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml){:target="_blank"}.
 
-**settings.json**
+`settings.json`
 
 Configure settings to be overridden for the xml language.
 

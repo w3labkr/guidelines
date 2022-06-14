@@ -10,7 +10,7 @@ Improve your README.md profile with these amazing badges.
 ![image](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ```
 
-[github.com/alexandresanlim/Badges4-README.md-Profile](https://github.com/alexandresanlim/Badges4-README.md-Profile){:target="_blank"}
+- [github.com/alexandresanlim/Badges4-README.md-Profile](https://github.com/alexandresanlim/Badges4-README.md-Profile){:target="_blank"}
 
 ## Statistics
 
@@ -22,4 +22,4 @@ Dynamically generated stats for your github readmes
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=w3labkr)](https://git.io/streak-stats)
 ```
 
-[github.com/anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats){:target="_blank"}
+- [github.com/anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats){:target="_blank"}

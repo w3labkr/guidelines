@@ -34,7 +34,7 @@ j = [1,
 
 ## Integration with visual studio code
 
-**settings.json**
+`settings.json`
 
 ```json
 {

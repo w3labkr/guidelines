@@ -13,7 +13,7 @@ One place for all extensions for Visual Studio, Azure DevOps Services, Azure Dev
 
 ## Extensions
 
-**Essential extensions**
+Essential extensions
 
 - [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig){:target="_blank"}  
   EditorConfig Support for Visual Studio Code.  
@@ -39,7 +39,7 @@ One place for all extensions for Visual Studio, Azure DevOps Services, Azure Dev
 - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense){:target="_blank"}  
   Visual Studio Code plugin that autocompletes filenames  
 
-**Recommended extensions**
+Recommended extensions
 
 - [One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme){:target="_blank"}  
   Atom‘s iconic One Dark theme for Visual Studio Code  
@@ -62,9 +62,12 @@ One place for all extensions for Visual Studio, Azure DevOps Services, Azure Dev
 - [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv){:target="_blank"}  
   Highlight CSV and TSV files, Run SQL-like queries  
 
+- [Markdown Preview Mermaid Support](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid){:target="_blank"}  
+  Adds Mermaid diagram and flowchart support to VS Code's builtin markdown preview  
+
 ## Settings
 
-**settings.json**
+`settings.json`
 
 ```json
 {

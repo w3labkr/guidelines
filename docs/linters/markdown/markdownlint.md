@@ -8,7 +8,7 @@ Markdown linting and style checking for Visual Studio Code.
 
 Install through vscode extensions. Search for [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint){:target="_blank"}.
 
-**settings.json**
+`settings.json`
 
 Configure settings to be overridden for the markdown language.
 
