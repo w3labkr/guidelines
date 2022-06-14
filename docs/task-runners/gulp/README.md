@@ -5,36 +5,6 @@ A toolkit to automate & enhance your workflow.
 - [gulpjs.com](https://gulpjs.com/){:target="_blank"}
 - [github.com/gulpjs/gulp](https://github.com/gulpjs/gulp){:target="_blank"}
 
-## Directory Structure
-
-```text
-.
-├── dist/
-│   ├── style.css
-│   ├── style.min.css
-│   ├── style.min.css.map
-│   ├── script.js
-│   ├── script.min.js
-│   └── script.min.js.map
-└── src/
-    ├── assets/
-    │   ├── images/
-    │   ├── js/
-    │   └── scss/
-    ├── data/
-    ├── template-parts/
-    │   ├── breadcrumb.html
-    │   └── hero.html
-    ├── templates/
-    ├── footer.html
-    ├── header.html
-    ├── index.html
-    ├── sidebar-1.html
-    └── sidebar-2.html
-```
-
-Directory tree created by [tree.nathanfriend.io](https://tree.nathanfriend.io/)
-
 ## Installation
 
 Install the gulp command line utility
@@ -126,135 +96,36 @@ exports.default = function() {
 };
 ```
 
-## Dependencies
+## Tablel of Contents
 
-```shell
-npm install --save-dev del gulp-rename gulp-sourcemaps gulp-concat gulp-header merge-stream
-```
+HTML
 
-### [del](https://www.npmjs.com/package/del){:target="_blank"}
+- [gulp-file-include](gulp-file-include.html)
+- [gulp-jsbeautifier](gulp-jsbeautifier.html)
+- [gulp-imagemin](gulp-imagemin.html)
 
-Delete files and directories
+CSS
 
-```shell
-npm install --save-dev del
-```
+- [gulp-postcss](postcss.html)
+- [autoprefixer](autoprefixer.html)
+- [cssnano](cssnano.html)
+- [gulp-sass](gulp-sass.html)
 
-```javascript
-const del = require('del');
+Javascript
 
-del(['dist/']);
-```
+- [gulp-babel](gulp-babel.html)
+- [gulp-uglify](gulp-uglify.html)
 
-### [gulp-rename](https://www.npmjs.com/package/gulp-rename){:target="_blank"}
+Git
 
-gulp-rename is a gulp plugin to rename files easily.
+- [gulp-conventional-changelog](gulp-conventional-changelog.html)
+- [gulp-bump](gulp-bump.html)
 
-```shell
-npm install --save-dev gulp-rename
-```
+Misc
 
-rename via a fixed object
-
-```javascript
-const rename = require("gulp-rename");
-
-gulp.src("./src/main/text/hello.txt")
-  .pipe(rename({
-    dirname: "main/text/ciao",
-    basename: "aloha",
-    prefix: "bonjour-",
-    suffix: "-hola",
-    extname: ".md"
-  }))
-  .pipe(gulp.dest("./dist")); // ./dist/main/text/ciao/bonjour-aloha-hola.md
-```
-
-### [gulp-sourcemaps](https://www.npmjs.com/package/gulp-sourcemaps){:target="_blank"}
-
-Sourcemap support for gulpjs.
-
-```shell
-npm install --save-dev gulp-sourcemaps
-```
-
-```javascript
-var gulp = require('gulp');
-var plugin1 = require('gulp-plugin1');
-var plugin2 = require('gulp-plugin2');
-var sourcemaps = require('gulp-sourcemaps');
-
-gulp.task('javascript', function () {
-    return gulp.src('src/**/*.js')
-        .pipe(sourcemaps.init())
-        .pipe(plugin1())
-        .pipe(plugin2())
-        .pipe(sourcemaps.write('.'))
-        .pipe(gulp.dest('dest'));
-});
-```
-
-### [gulp-concat](https://www.npmjs.com/package/gulp-concat){:target="_blank"}
-
-Streaming concat middleware for gulp.
-
-```shell
-npm install --save-dev gulp-concat
-```
-
-```javascript
-const concat = require('gulp-concat');
- 
-gulp.task('scripts', function() {
-  return gulp.src('./lib/*.js')
-    .pipe(concat('all.js'))
-    .pipe(gulp.dest('./dist/'));
-});
-```
-
-### [gulp-header](dependency){:target="_blank"}
-
-Gulp extension to add a header to file(s) in the pipeline.
-
-```shell
-npm install --save-dev gulp-header
-```
-
-```javascript
-const header = require('gulp-header');
- 
-const pkg = require('./package.json');
-const banner = [
-  '/**',
-  ' * Copyright (c) <%= new Date().getFullYear() %> <%= pkg.author %>',
-  ' * <%= pkg.name %> - <%= pkg.description %>',
-  ' * @version v<%= pkg.version %>',
-  ' * @link <%= pkg.homepage %>',
-  ' * @license <%= pkg.license %>',
-  ' */',
-  '',
-].join('\n');
-
-gulp.src('./foo/*.js')
-  .pipe(header(banner, { pkg: pkg }))
-  .pipe(gulp.dest('./dist/'));
-```
-
-### [merge-stream](https://www.npmjs.com/package/merge-stream){:target="_blank"}
-
-Merge (interleave) a bunch of streams.
-
-```shell
-npm install --save-dev merge-stream
-```
-
-```javascript
-const mergeStream = require("merge-stream");
-
-gulp.task('lint', function() {
-  return mergeStream(
-    gulp.src('src/*.html').pipe(htmlValidator()),
-    gulp.src('src/*.js').pipe(jsHint())
-  );
-});
-```
+- [del](del.html)
+- [gulp-rename](gulp-rename.html)
+- [gulp-sourcemaps](gulp-sourcemaps.html)
+- [gulp-concat](gulp-concat.html)
+- [gulp-header](gulp-header.html)
+- [merge-stream](merge-stream.html)

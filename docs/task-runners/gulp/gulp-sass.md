@@ -1,6 +1,7 @@
-# Sass
+# gulp-sass
 
-- [gulp-sass](https://www.npmjs.com/package/gulp-sass){:target="_blank"}
+- [github.com/sass/dart-sass](https://github.com/sass/dart-sass){:target="_blank"}
+- [github.com/dlmanning/gulp-sass](https://github.com/dlmanning/gulp-sass){:target="_blank"}
 
 ## Installation
 
