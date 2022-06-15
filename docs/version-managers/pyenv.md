@@ -41,10 +41,10 @@ exec $SHELL
 ### Create Virtual Environment
 
 ```shell
-pyenv install 3.8.12
-pyenv virtualenv 3.8.12 <virtualenv>-3.8.12
-pyenv local <virtualenv>-3.8.12
-pyenv shell <virtualenv>-3.8.12
+pyenv install 3.9.12
+pyenv virtualenv 3.9.12 <virtualenv>-3.9.12
+pyenv local <virtualenv>-3.9.12
+pyenv shell <virtualenv>-3.9.12
 ```
 
 ### Integration with visual studio code
@@ -87,13 +87,13 @@ pyenv install --list
 Then install the desired versions.
 
 ```shell
-pyenv install 3.8.12
+pyenv install 3.9.12
 ```
 
 Sets the global version of Python.
 
 ```shell
-pyenv global 3.8.12
+pyenv global 3.9.12
 exec $SHELL
 python --version
 ```
@@ -101,32 +101,32 @@ python --version
 Using pyenv virtualenv with pyenv.
 
 ```shell
-pyenv virtualenv 3.8.12 <virtualenv>-3.8.12
+pyenv virtualenv 3.9.12 <virtualenv>-3.9.12
 ```
 
 Sets a local application-specific Python version by writing the version name to a .python-version file in the current directory.
 
 ```shell
-pyenv local <virtualenv>-3.8.12
+pyenv local <virtualenv>-3.9.12
 ```
 
 Sets a shell-specific Python version by setting the PYENV_VERSION environment variable in your shell.
 
 ```shell
-pyenv shell <virtualenv>-3.8.12
+pyenv shell <virtualenv>-3.9.12
 ```
 
 Activate and deactivate a pyenv virtualenv manually.
 
 ```shell
-pyenv activate <virtualenv>-3.8.12
+pyenv activate <virtualenv>-3.9.12
 pyenv deactivate
 ```
 
 Uninstall a specific Python version.
 
 ```shell
-pyenv uninstall <virtualenv>-3.8.12
+pyenv uninstall <virtualenv>-3.9.12
 ```
 
 ## Command Reference

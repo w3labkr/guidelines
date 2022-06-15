@@ -100,32 +100,58 @@ exports.default = function() {
 
 HTML
 
-- [gulp-file-include](gulp-file-include.html)
-- [gulp-jsbeautifier](gulp-jsbeautifier.html)
-- [gulp-imagemin](gulp-imagemin.html)
+- [gulp-file-include](gulp-file-include.html)  
+   a gulp plugin for file include.
+
+- [gulp-jsbeautifier](gulp-jsbeautifier.html)  
+   Beautify js, css, html and json files using Gulp and <https://github.com/einars/js-beautify>{:target="_blank"}.
+
+- [gulp-imagemin](gulp-imagemin.html)  
+   Minify PNG, JPEG, GIF and SVG images with imagemin.
 
 CSS
 
-- [gulp-postcss](gulp-postcss.html)
-- [autoprefixer](autoprefixer.html)
-- [cssnano](cssnano.html)
-- [gulp-sass](gulp-sass.html)
+- [gulp-postcss](gulp-postcss.html)  
+   PostCSS gulp plugin to pipe CSS through several plugins, but parse CSS only once.
+
+- [autoprefixer](autoprefixer.html)  
+   PostCSS plugin to parse CSS and add vendor prefixes to CSS rules using values from Can I Use. It is recommended by Google and used in Twitter and Alibaba.
+
+- [cssnano](cssnano.html)  
+   A modular minifier, built on top of the PostCSS ecosystem.
+
+- [gulp-sass](gulp-sass.html)  
+   SASS plugin for gulp.
 
 Javascript
 
-- [gulp-babel](gulp-babel.html)
-- [gulp-uglify](gulp-uglify.html)
+- [gulp-babel](gulp-babel.html)  
+   Use next generation JavaScript, today, with Babel.
+
+- [gulp-uglify](gulp-uglify.html)  
+   Minify JavaScript with UglifyJS3.
 
 Git
 
-- [gulp-conventional-changelog](gulp-conventional-changelog.html)
-- [gulp-bump](gulp-bump.html)
+- [gulp-conventional-changelog](gulp-conventional-changelog.html)  
+   Generate a changelog using conventional-changelog.
 
 Misc
 
 - [del](del.html)
-- [gulp-rename](gulp-rename.html)
-- [gulp-sourcemaps](gulp-sourcemaps.html)
-- [gulp-concat](gulp-concat.html)
-- [gulp-header](gulp-header.html)
-- [merge-stream](merge-stream.html)
+   Delete files and directories.
+
+- [gulp-rename](gulp-rename.html)  
+   gulp-rename is a gulp plugin to rename files easily.
+
+- [gulp-sourcemaps](gulp-sourcemaps.html)  
+   Sourcemap support for gulpjs.
+
+- [gulp-concat](gulp-concat.html)  
+   Streaming concat middleware for gulp.
+
+- [gulp-header](gulp-header.html)  
+   Gulp extension to add a header to file(s) in the pipeline.
+
+- [merge-stream](merge-stream.html)  
+   Merge multiple streams into one interleaved stream.

@@ -21,9 +21,6 @@ composer require --dev squizlabs/php_codesniffer
 
 ## Configuration
 
-- [Annotated ruleset.xml](https://github.com/squizlabs/PHP_CodeSniffer/blob/master/src/Standards/PSR2/ruleset.xml){:target="_blank"}
-- [The Annotated Sample File](https://pear.php.net/manual/en/package.php.php-codesniffer.annotated-ruleset.php){:target="_blank"}
-
 ```xml
 <?xml version="1.0"?>
 <ruleset name="Custom Standard">
@@ -48,6 +45,11 @@ composer require --dev squizlabs/php_codesniffer
     </rule>
 </ruleset>
 ```
+
+Dependencies
+
+- [Annotated ruleset.xml](https://github.com/squizlabs/PHP_CodeSniffer/blob/master/src/Standards/PSR2/ruleset.xml){:target="_blank"}
+- [The Annotated Sample File](https://pear.php.net/manual/en/package.php.php-codesniffer.annotated-ruleset.php){:target="_blank"}
 
 Ignore Line exceeds maximum limit of characters.
 

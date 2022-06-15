@@ -1,5 +1,7 @@
 # gulp-sass
 
+SASS plugin for gulp.
+
 - [github.com/sass/dart-sass](https://github.com/sass/dart-sass){:target="_blank"}
 - [github.com/dlmanning/gulp-sass](https://github.com/dlmanning/gulp-sass){:target="_blank"}
 

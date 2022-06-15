@@ -26,20 +26,29 @@ Like many other Version Control Systems, Git has a way to fire off custom script
 
 Javascript
 
-- [husky](husky.html)
-- [lint-staged](lint-staged.html)
+- [husky](husky.html)  
+   Modern native git hooks made easy. You can use it to lint your commit messages, run tests, lint code, etc... when you commit or push.
+
+- [lint-staged](lint-staged.html)  
+   Run linters on git staged files.
 
 Python
 
-- [pre-commit](pre-commit.html)
+- [pre-commit](pre-commit.html)  
+   A framework for managing and maintaining multi-language pre-commit hooks.
 
 ## Conventional Commits
 
-- [commitizen](commitizen.html)
-- [commitlint](commitlint.html)
+- [commitizen](commitizen.html)  
+   The commitizen command line utility.
+
+- [commitlint](commitlint.html)  
+   Lint commit messages.
 
 ## Automate Versioning
 
-- [standard-version](standard-version.html)
-- [release-it](release-it.html)
-- [semantic-release](semantic-release.html)
+- [standard-version](standard-version.html)  
+   Automate versioning and CHANGELOG generation, with semver.org and conventionalcommits.org
+
+- [semantic-release](semantic-release.html)  
+   Fully automated version management and package publishing.

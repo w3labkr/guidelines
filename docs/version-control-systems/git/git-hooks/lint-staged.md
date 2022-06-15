@@ -57,12 +57,22 @@ Good
 
 ## Integration with Formatter
 
-- [js-beautify]({{ site.baseurl }}/docs/formatters/js-beautify.html#integration-with-git-hooks)
-- [prettier]({{ site.baseurl }}/docs/formatters/prettier.html#integration-with-git-hooks)
+- [js-beautify]({{ site.baseurl }}/docs/formatters/js-beautify.html#integration-with-git-hooks)  
+   Beautifier for javascript.
+
+- [prettier]({{ site.baseurl }}/docs/formatters/prettier.html#integration-with-git-hooks)  
+   Prettier is an opinionated code formatter.
 
 ## Integration with Linter
 
-- [style]({{ site.baseurl }}/docs/linters/style/#integration-with-git-hooks)
-- [Javascript]({{ site.baseurl }}/docs/linters/javascript/#integration-with-git-hooks)
-- [php-cs-fixer]({{ site.baseurl }}/docs/linters/php/php-cs-fixer.html#integration-with-git-hooks)
-- [commitlint](commitlint.html#integration-with-husky)
+- [stylelint]({{ site.baseurl }}/docs/linters/style/stylelint/#integration-with-git-hooks)  
+   A mighty, modern linter that helps you avoid errors and enforce conventions in your styles.
+
+- [eslint]({{ site.baseurl }}/docs/linters/javascript/eslint/#integration-with-git-hooks)  
+   Find and fix problems in your JavaScript code.
+
+- [php-cs-fixer]({{ site.baseurl }}/docs/linters/php/php-cs-fixer.html#integration-with-git-hooks)  
+   A tool to automatically fix PHP Coding Standards issues.
+
+- [commitlint](commitlint.html#integration-with-pre-commit)  
+   Lint commit messages.
