@@ -32,7 +32,7 @@ function defaultTask(cb) {
 exports.default = defaultTask
 ```
 
-### Creating Tasks
+Creating Tasks
 
 ```javascript
 const { series, parallel } = require('gulp');
@@ -73,18 +73,10 @@ exports.build = series(
 );
 ```
 
-### Watching Files
+Watching Files
 
 ```javascript
 const { watch } = require('gulp');
-
-function clean() {
-  // body omitted
-}
-
-function javascript() {
-  // body omitted
-}
 
 function css() {
   // body omitted
@@ -92,11 +84,14 @@ function css() {
 
 exports.default = function() {
   watch('src/*.css', css);
-  watch('src/*.js', javascript);
 };
 ```
 
-## Tablel of Contents
+## Popular plugins
+
+- [gulpjs.com/plugins](https://gulpjs.com/plugins){:target="_blank"}
+
+## Recommended plugins
 
 HTML
 
@@ -104,7 +99,7 @@ HTML
    a gulp plugin for file include.
 
 - [gulp-jsbeautifier](gulp-jsbeautifier.html)  
-   Beautify js, css, html and json files using Gulp and <https://github.com/einars/js-beautify>{:target="_blank"}.
+   Beautify js, css, html and json files using Gulp and js-beautify.
 
 - [gulp-imagemin](gulp-imagemin.html)  
    Minify PNG, JPEG, GIF and SVG images with imagemin.
@@ -122,6 +117,9 @@ CSS
 
 - [gulp-sass](gulp-sass.html)  
    SASS plugin for gulp.
+
+- [gulp-inline-css](gulp-inline-css.html)  
+   Inline linked css in an html file. Useful for emails.
 
 Javascript
 
@@ -141,6 +139,9 @@ Misc
 - [del](del.html)
    Delete files and directories.
 
+- [gulp-if](gulp-if.html)
+   Conditionally run a task.
+
 - [gulp-rename](gulp-rename.html)  
    gulp-rename is a gulp plugin to rename files easily.
 
@@ -149,6 +150,9 @@ Misc
 
 - [gulp-concat](gulp-concat.html)  
    Streaming concat middleware for gulp.
+
+- [gulp-useref](gulp-useref.html)  
+   Parse build blocks in HTML files to replace references to non-optimized scripts or stylesheets.
 
 - [gulp-header](gulp-header.html)  
    Gulp extension to add a header to file(s) in the pipeline.

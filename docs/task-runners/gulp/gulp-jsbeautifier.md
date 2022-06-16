@@ -1,6 +1,6 @@
 # gulp-jsbeautifier
 
-Beautify js, css, html and json files using Gulp and <https://github.com/einars/js-beautify>{:target="_blank"}.
+Beautify js, css, html and json files using Gulp and js-beautify.
 
 - [github.com/tarunc/gulp-jsbeautifier](https://github.com/tarunc/gulp-jsbeautifier){:target="_blank"}
 
