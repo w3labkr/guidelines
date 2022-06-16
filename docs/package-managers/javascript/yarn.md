@@ -124,4 +124,4 @@ yarn add --dev yarn-upgrade-all
 
 ## Command Reference
 
-[classic.yarnpkg.com/en/docs/cli](https://classic.yarnpkg.com/en/docs/cli){:target="_blank"}
+- [classic.yarnpkg.com/en/docs/cli](https://classic.yarnpkg.com/en/docs/cli){:target="_blank"}

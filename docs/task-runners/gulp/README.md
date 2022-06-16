@@ -159,3 +159,6 @@ Misc
 
 - [merge-stream](merge-stream.html)  
    Merge multiple streams into one interleaved stream.
+
+- [gulp-shell](gulp-shell.html)  
+   A handy command line interface for gulp.

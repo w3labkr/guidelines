@@ -6,7 +6,7 @@ Simple Python version management
 
 ## Installation
 
-[pyenv installer](https://github.com/pyenv/pyenv-installer){:target="_blank"} is used to install [pyenv](https://github.com/pyenv/pyenv){:target="_blank"} and [friends](https://github.com/pyenv/pyenv-virtualenv){:target="_blank"}.
+- [pyenv installer](https://github.com/pyenv/pyenv-installer){:target="_blank"} is used to install [pyenv](https://github.com/pyenv/pyenv){:target="_blank"} and [friends](https://github.com/pyenv/pyenv-virtualenv){:target="_blank"}.
 
 ```shell
 curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash

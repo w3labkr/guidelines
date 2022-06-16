@@ -9,7 +9,7 @@ the package manager for JavaScript
 
 NPM package comparison
 
-[npmtrends.com](https://www.npmtrends.com/){:target="_blank"}
+- [npmtrends.com](https://www.npmtrends.com/){:target="_blank"}
 
 ## Packages
 
@@ -79,7 +79,7 @@ This command will check the registry to see if any (or, specific) installed pack
 npm outdated
 ```
 
-[Upgrade all the packages in your package.json to the latest version](https://nodejs.dev/learn/update-all-the-nodejs-dependencies-to-their-latest-version){:target="_blank"}
+Upgrade all the packages in your package.json to the latest version.
 
 ```shell
 npm install -g npm-check-updates
@@ -88,9 +88,16 @@ npm update
 npm install
 ```
 
+Bump a package version.
+
+```shell
+npm version [<newversion> | major | minor | patch | premajor | preminor | prepatch | prerelease | from-git]
+```
+
 ## Command Reference
 
-[docs.npmjs.com/cli/v8/commands](https://docs.npmjs.com/cli/v8/commands){:target="_blank"}
+- [docs.npmjs.com/cli/v8/commands](https://docs.npmjs.com/cli/v8/commands){:target="_blank"}
+- [nodejs.dev/learn/update-all-the-nodejs-dependencies-to-their-latest-version](https://nodejs.dev/learn/update-all-the-nodejs-dependencies-to-their-latest-version){:target="_blank"}
 
 ## Integration with visual studio code
 

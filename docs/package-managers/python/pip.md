@@ -9,7 +9,7 @@ The PyPA recommended tool for installing Python packages.
 
 Get to know about a Python package or Compare Python packages download counts and their Github statistics.
 
-[piptrends.com](https://piptrends.com/){:target="_blank"}
+- [piptrends.com](https://piptrends.com/){:target="_blank"}
 
 ## Commands
 

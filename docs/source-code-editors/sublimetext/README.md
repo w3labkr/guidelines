@@ -9,4 +9,4 @@ The sophisticated text editor for code, markup and prose.
 
 The Sublime Text package manager that makes it exceedingly simple to find, install and keep packages up-to-date.
 
-[packagecontrol.io](https://packagecontrol.io/){:target="_blank"}
+- [packagecontrol.io](https://packagecontrol.io/){:target="_blank"}

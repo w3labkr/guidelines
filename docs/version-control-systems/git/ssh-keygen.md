@@ -1,5 +1,7 @@
 # SSH Key
 
+- [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent){:target="_blank"}
+
 ## Generating a new SSH key
 
 Generating a new SSH Key with no passphrase.
@@ -32,8 +34,6 @@ clip < ~/.ssh/example_id_rsa.pub
 # Linux
 cat ~/.ssh/example_id_rsa.pub
 ```
-
-[Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent){:target="_blank"}
 
 ## Register multiple SSH keys
 

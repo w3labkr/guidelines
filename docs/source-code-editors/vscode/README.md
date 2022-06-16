@@ -9,7 +9,7 @@ Visual Studio Code is a distribution of the Code.
 
 One place for all extensions for Visual Studio, Azure DevOps Services, Azure DevOps Server and Visual Studio Code.
 
-[marketplace.visualstudio.com/vscode](https://marketplace.visualstudio.com/vscode){:target="_blank"}
+- [marketplace.visualstudio.com/vscode](https://marketplace.visualstudio.com/vscode){:target="_blank"}
 
 ## Extensions
 
@@ -206,4 +206,4 @@ rm -rf $HOME/.vscode
 
 Step2. Remove VSCode from application
 
-[how-to-completely-uninstall-vscode-on-mac](https://stackoverflow.com/questions/42603103/how-to-completely-uninstall-vscode-on-mac){:target="_blank"}
+- [how-to-completely-uninstall-vscode-on-mac](https://stackoverflow.com/questions/42603103/how-to-completely-uninstall-vscode-on-mac){:target="_blank"}

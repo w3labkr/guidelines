@@ -87,7 +87,7 @@ options.emitClose = false; options.autoDestroy = false;
 
 Relaunch visual studio code.
 
-[stackoverflow.com/questions/67506693/error-no-such-file-sftp-liximomo-extension](https://stackoverflow.com/questions/67506693/error-no-such-file-sftp-liximomo-extension){:target="_blank"}
+- [stackoverflow.com/questions/67506693/error-no-such-file-sftp-liximomo-extension](https://stackoverflow.com/questions/67506693/error-no-such-file-sftp-liximomo-extension){:target="_blank"}
 
 ### ENFILE: file table overflow
 
@@ -101,4 +101,4 @@ sudo sysctl -w kern.maxfilesperproc=65536
 ulimit -n 65536
 ```
 
-[github.com/liximomo/vscode-sftp/blob/master/FAQ.md](https://github.com/liximomo/vscode-sftp/blob/master/FAQ.md){:target="_blank"}
+- [github.com/liximomo/vscode-sftp/blob/master/FAQ.md](https://github.com/liximomo/vscode-sftp/blob/master/FAQ.md){:target="_blank"}

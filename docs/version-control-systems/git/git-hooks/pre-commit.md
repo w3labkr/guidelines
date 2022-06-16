@@ -34,7 +34,7 @@ repos:
 
 ## Supported Hooks
 
-[pre-commit.com/hooks.html](https://pre-commit.com/hooks.html){:target="_blank"}
+- [pre-commit.com/hooks.html](https://pre-commit.com/hooks.html){:target="_blank"}
 
 ## Integration with Formatter
 

@@ -6,7 +6,7 @@ Run linters on git staged files.
 
 ## Dependency
 
-[Husky](husky.html) is a popular choice for configuring git hooks.
+- [Husky](husky.html) is a popular choice for configuring git hooks.
 
 ## Installation
 

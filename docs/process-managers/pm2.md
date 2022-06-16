@@ -28,7 +28,7 @@ pm2 save
 pm2 unstartup
 ```
 
-[More about Startup Scripts Generation](https://pm2.keymetrics.io/docs/usage/startup/){:target="_blank"}
+- [More about Startup Scripts Generation](https://pm2.keymetrics.io/docs/usage/startup/){:target="_blank"}
 
 ## Updating PM2
 
@@ -76,7 +76,7 @@ To monitor logs, custom metrics, application information:
 pm2 monit
 ```
 
-[More about Process Management](https://pm2.keymetrics.io/docs/usage/process-management/){:target="_blank"}
+- [More about Process Management](https://pm2.keymetrics.io/docs/usage/process-management/){:target="_blank"}
 
 ## Cluster Mode: Node.js Load Balancing & Zero Downtime Reload
 
@@ -93,4 +93,4 @@ Hot Reload allows to update an application without any downtime:
 pm2 reload all
 ```
 
-[More informations about how PM2 make clustering easy](https://pm2.keymetrics.io/docs/usage/cluster-mode/){:target="_blank"}
+- [More informations about how PM2 make clustering easy](https://pm2.keymetrics.io/docs/usage/cluster-mode/){:target="_blank"}

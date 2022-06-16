@@ -30,4 +30,4 @@ npm install --save-dev gulp-imagemin@7.1.0
 npm install --save-dev @types/gulp-imagemin@7.0.3
 ```
 
-[bobbyhadz.com/blog/javascript-gulp-error-err-require-esm-of-es-module](https://bobbyhadz.com/blog/javascript-gulp-error-err-require-esm-of-es-module){:target="_blank"}
+- [bobbyhadz.com/blog/javascript-gulp-error-err-require-esm-of-es-module](https://bobbyhadz.com/blog/javascript-gulp-error-err-require-esm-of-es-module){:target="_blank"}
