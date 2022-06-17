@@ -5,6 +5,15 @@ A toolkit to automate & enhance your workflow.
 - [gulpjs.com](https://gulpjs.com/){:target="_blank"}
 - [github.com/gulpjs/gulp](https://github.com/gulpjs/gulp){:target="_blank"}
 
+## Examples
+
+- [guideline-gulp](https://github.com/w3labkr/guideline-gulp){:target="_blank"}  
+   Guidelines for gulp
+- [guideline-gulp-inline-css](https://github.com/w3labkr/guideline-gulp-inline-css){:target="_blank"}  
+   Guidelines for gulp inline css
+- [guideline-gulp-sass](https://github.com/w3labkr/guideline-gulp-sass){:target="_blank"}  
+   Guidelines for gulp sass
+
 ## Installation
 
 Install the gulp command line utility
