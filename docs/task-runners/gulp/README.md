@@ -7,12 +7,9 @@ A toolkit to automate & enhance your workflow.
 
 ## Examples
 
-- [guideline-gulp](https://github.com/w3labkr/guideline-gulp){:target="_blank"}  
-   Guidelines for gulp
-- [guideline-gulp-inline-css](https://github.com/w3labkr/guideline-gulp-inline-css){:target="_blank"}  
-   Guidelines for gulp inline css
-- [guideline-gulp-sass](https://github.com/w3labkr/guideline-gulp-sass){:target="_blank"}  
-   Guidelines for gulp sass
+- [guideline-gulp](https://github.com/w3labkr/guideline-gulp){:target="_blank"}
+- [guideline-gulp-inline-css](https://github.com/w3labkr/guideline-gulp-inline-css){:target="_blank"}
+- [guideline-gulp-sass](https://github.com/w3labkr/guideline-gulp-sass){:target="_blank"}
 
 ## Installation
 
