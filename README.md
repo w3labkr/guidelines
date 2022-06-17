@@ -8,30 +8,19 @@ This article was prepared by extracting portions of official articles from Wikip
 
 ## Examples
 
-- [guideline-gulp](https://github.com/w3labkr/guideline-gulp){:target="_blank"}  
-   Guidelines for gulp
-- [guideline-gulp-inline-css](https://github.com/w3labkr/guideline-gulp-inline-css){:target="_blank"}  
-   Guidelines for gulp inline css
-- [guideline-gulp-sass](https://github.com/w3labkr/guideline-gulp-sass){:target="_blank"}  
-   Guidelines for gulp sass
+- [guideline-gulp](https://github.com/w3labkr/guideline-gulp){:target="_blank"}
+- [guideline-gulp-inline-css](https://github.com/w3labkr/guideline-gulp-inline-css){:target="_blank"}
+- [guideline-gulp-sass](https://github.com/w3labkr/guideline-gulp-sass){:target="_blank"}
 
 <!-- 
-- [guideline-html](https://github.com/w3labkr/guideline-html){:target="_blank"}  
-   guideline for html, css and javascript
-- [guideline-react](https://github.com/w3labkr/guideline-react){:target="_blank"}  
-   guideline for react
-- [guideline-php](https://github.com/w3labkr/guideline-php){:target="_blank"}  
-    guideline for php
-- [guideline-html-in-php](https://github.com/w3labkr/guideline-html-in-php){:target="_blank"}  
-    guideline for html in php
-- [guideline-python](https://github.com/w3labkr/guideline-python){:target="_blank"}  
-    guideline for python
-- [guideline-jupyter](https://github.com/w3labkr/guideline-jupyter){:target="_blank"}  
-    guideline for jupyter
-- [guideline-apache](https://github.com/w3labkr/guideline-apache){:target="_blank"}  
-   guideline for apache
-- [guideline-nginx](https://github.com/w3labkr/guideline-nginx){:target="_blank"}  
-   guideline for nginx
+- [guideline-html](https://github.com/w3labkr/guideline-html){:target="_blank"}
+- [guideline-react](https://github.com/w3labkr/guideline-react){:target="_blank"}
+- [guideline-php](https://github.com/w3labkr/guideline-php){:target="_blank"}
+- [guideline-html-in-php](https://github.com/w3labkr/guideline-html-in-php){:target="_blank"}
+- [guideline-python](https://github.com/w3labkr/guideline-python){:target="_blank"}
+- [guideline-jupyter](https://github.com/w3labkr/guideline-jupyter){:target="_blank"}
+- [guideline-apache](https://github.com/w3labkr/guideline-apache){:target="_blank"}
+- [guideline-nginx](https://github.com/w3labkr/guideline-nginx){:target="_blank"}
 -->
 
 ## Table of Contents
