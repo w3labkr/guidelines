@@ -142,10 +142,10 @@ Git
 
 Misc
 
-- [del](del.html)
+- [del](del.html)  
    Delete files and directories.
 
-- [gulp-if](gulp-if.html)
+- [gulp-if](gulp-if.html)  
    Conditionally run a task.
 
 - [gulp-rename](gulp-rename.html)  
