@@ -10,8 +10,6 @@ Bootstrap Icons are published to npm, but they can also be manually downloaded i
 
 ```html
 <head>
-  <meta http-equiv="x-dns-prefetch-control" content="on">
-  
   <!--
     Using dns-prefetch
 
@@ -20,6 +18,7 @@ Bootstrap Icons are published to npm, but they can also be manually downloaded i
 
     https://developer.mozilla.org/en-US/docs/Web/Performance/dns-prefetch
   -->
+  <meta http-equiv="x-dns-prefetch-control" content="on">
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
   <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
   
