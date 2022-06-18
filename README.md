@@ -16,11 +16,10 @@ This article was prepared by extracting portions of official articles from Wikip
 - [guideline-gulp-sass](https://github.com/w3labkr/guideline-gulp-sass){:target="_blank"}
 - [guideline-php](https://github.com/w3labkr/guideline-php){:target="_blank"}
 - [guideline-php-in-html](https://github.com/w3labkr/guideline-php-in-html){:target="_blank"}
-
+- [guideline-python](https://github.com/w3labkr/guideline-python){:target="_blank"}
+- 
 <!-- 
 - [guideline-react](https://github.com/w3labkr/guideline-react){:target="_blank"}
-- [guideline-python](https://github.com/w3labkr/guideline-python){:target="_blank"}
-- [guideline-jupyter](https://github.com/w3labkr/guideline-jupyter){:target="_blank"}
 - [guideline-apache](https://github.com/w3labkr/guideline-apache){:target="_blank"}
 - [guideline-nginx](https://github.com/w3labkr/guideline-nginx){:target="_blank"}
 -->
