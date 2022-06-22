@@ -4,34 +4,25 @@ In publishing and graphic design, Lorem ipsum is a placeholder text commonly use
 
 ## Text
 
-lorem ipsum for english
+- [lipsum.com](https://www.lipsum.com/){:target="_blank"}  
+   lorem ipsum for english
 
-- [lipsum.com](https://www.lipsum.com/){:target="_blank"}
+- [hangul.thefron.me](https://hangul.thefron.me/){:target="_blank"}  
+   lorem ipsum for hangul
 
-lorem ipsum for hangul
+- [generator.lorem-ipsum.info](https://generator.lorem-ipsum.info/){:target="_blank"}  
+   lorem ipsum for japanese and other languages.
 
-- [hangul.thefron.me](https://hangul.thefron.me/){:target="_blank"}
+- [richyli.com/tool/loremipsum](http://www.richyli.com/tool/loremipsum/){:target="_blank"}  
+   lorem ipsum for Traditional Chinese
 
-lorem ipsum for japanese and other languages.
-
-latin, info, info, russian, greek, armenian, georgian, info, info, hindi, chinese, japanese, japanese2, japanese3, korean, korean2, info, info, arabic, hebrew, info, info, l33tspeak, morsecode, info, info, esperanto, interlingua, quenya, slovio, sona, tokipona, volapuek, info, info, letzebuergesch
-
-- [generator.lorem-ipsum.info](https://generator.lorem-ipsum.info/){:target="_blank"}
-
-lorem ipsum for Traditional Chinese
-
-- [richyli.com/tool/loremipsum](http://www.richyli.com/tool/loremipsum/){:target="_blank"}
-
-lorem ipsum for Simplified Chinese
-
-- [cancms.com/content/dummytext](http://www.cancms.com/content/dummytext){:target="_blank"}
+- [cancms.com/content/dummytext](http://www.cancms.com/content/dummytext){:target="_blank"}  
+   lorem ipsum for Simplified Chinese
 
 ## Image
 
-The Lorem Ipsum for photos.
+- [picsum.photos](https://picsum.photos/){:target="_blank"}  
+   The Lorem Ipsum for photos.
 
-- [picsum.photos](https://picsum.photos/){:target="_blank"}
-
-Placeholder.com is a free image placeholder service for web designers, serving billions and billions of images each year.
-
-- [placeholder.com](https://placeholder.com/){:target="_blank"}
+- [placeholder.com](https://placeholder.com/){:target="_blank"}  
+   Placeholder.com is a free image placeholder service for web designers, serving billions and billions of images each year.

@@ -2,21 +2,14 @@
 
 ## Markup Validation Service
 
-Check the markup (HTML, XHTML, …) of Web documents
+- [validator.w3.org](https://validator.w3.org/){:target="_blank"}  
+   Check the markup (HTML, XHTML, …) of Web documents.
 
-- [validator.w3.org](https://validator.w3.org/){:target="_blank"}
+- [validator.w3.org/nu](https://validator.w3.org/nu/){:target="_blank"}  
+   This tool is an ongoing experiment in better HTML checking, and its behavior remains subject to change.
 
-## Nu Html Checker
-
-This tool is an ongoing experiment in better HTML checking, and its behavior remains subject to change
-
-- [validator.w3.org/nu](https://validator.w3.org/nu/){:target="_blank"}
-
-## CSS Validation Service
-
-Check Cascading Style Sheets (CSS) and (X)HTML documents with style sheets
-
-- [jigsaw.w3.org/css-validator](https://jigsaw.w3.org/css-validator/){:target="_blank"}
+- [jigsaw.w3.org/css-validator](https://jigsaw.w3.org/css-validator/){:target="_blank"}  
+   Check Cascading Style Sheets (CSS) and (X)HTML documents with style sheets.
 
 ## Schema Markup Validator
 

@@ -1,7 +1,7 @@
 # Characters
 
-## HTML Entities
+- [dev.w3.org/html5/html-author/charref](https://dev.w3.org/html5/html-author/charref){:target="_blank"}  
+   Character Entity Reference Chart
 
-Character Entity Reference Chart
-
-- [dev.w3.org/html5/html-author/charref](https://dev.w3.org/html5/html-author/charref){:target="_blank"}
+- [speller.cs.pusan.ac.kr](https://speller.cs.pusan.ac.kr/){:target="_blank"}  
+   Korean Spelling/Grammar Checker
