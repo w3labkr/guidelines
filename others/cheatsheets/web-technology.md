@@ -6,11 +6,10 @@
 - [caniuse.com](http://caniuse.com/){:target="_blank"}  
    Raw browser/feature support data from caniuse.com.
 
-## Global Statistics
-
 - [octoverse.github.com](https://octoverse.github.com){:target="_blank"}  
-   The State of the Octoverse explores a year of change with new deep dives into writing code faster,  
-   creating documentation and how we build sustainable communities on GitHub.  
+   The State of the Octoverse explores a year of change with new deep dives into writing code faster, creating documentation and how we build sustainable communities on GitHub.  
+
+## World
 
 - [w3techs.com](https://w3techs.com){:target="_blank"}  
    World Wide Web Technology Surveys  
@@ -21,7 +20,7 @@
 - [netmarketshare.com](https://netmarketshare.com){:target="_blank"}  
    Market Share Statistics for Internet Technologies  
 
-## Korea Statistics
+## Korea
 
 - [koreahtml5.kr](https://www.koreahtml5.kr){:target="_blank"}  
    차세대 웹 기술 향상과 이용자의 편의성 증대를 위해 관련 정책과 차세대 웹 기술을 안내 및 지원하고 인터넷 기반 최신 현황·통계와 지원 사업을 제공합니다.  
