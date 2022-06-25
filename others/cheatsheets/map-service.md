@@ -1,4 +1,4 @@
-# Map
+# Map Service
 
 - [mapbox.com](https://www.mapbox.com){:target="_blank"}  
    Maps and location for developers
