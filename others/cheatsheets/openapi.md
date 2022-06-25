@@ -5,3 +5,6 @@
 
 - [data.seoul.go.kr](https://data.seoul.go.kr){:target="_blank"}  
    서울 열린 데이터 광장
+
+- [newsapi.org](https://newsapi.org){:target="_blank"}  
+   Search worldwide news with code
