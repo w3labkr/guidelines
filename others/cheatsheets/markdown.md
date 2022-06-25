@@ -2,6 +2,11 @@
 
 Markdown is a lightweight markup language for creating formatted text.
 
+## Generator
+
+- [tablesgenerator.com/markdown_tables](https://www.tablesgenerator.com/markdown_tables){:target="_blank"}
+- [tree.nathanfriend.io](https://tree.nathanfriend.io){:target="_blank"}
+
 ## LaTeX
 
 ```markdown
