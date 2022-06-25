@@ -1,6 +1,9 @@
 # Web Technology
 
-- [developer.mozilla.org/en-US](http://developer.mozilla.org/en-US/){:target="_blank"}  
+- [w3schools.com](https://www.w3schools.com){:target="_blank"}  
+   Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, Python, PHP, Bootstrap, Java, XML and more.
+
+- [developer.mozilla.org/en-US](http://developer.mozilla.org/en-US){:target="_blank"}  
    Documenting web technologies, including CSS, HTML, and JavaScript, since 2005.
 
 - [caniuse.com](http://caniuse.com/){:target="_blank"}  
