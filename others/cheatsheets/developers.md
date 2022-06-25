@@ -12,6 +12,12 @@
 - [developer.wordpress.com](https://developer.wordpress.com){:target="_blank"}  
    Developer Resources | Create cool applications that integrate with WordPress.com
 
+- [developer.wordpress.org/themes](https://developer.wordpress.org/themes/){:target="_blank"}  
+   Welcome to the WordPress Theme Developer Handbook, your resource for learning all about the exciting world of WordPress themes. 
+
+- [developer.wordpress.org/plugins](https://developer.wordpress.org/plugins/){:target="_blank"}  
+   Welcome to the WordPress Plugin Developer Handbook; are you ready to jump right in to the world of WordPress plugins?
+
 ## Naver
 
 - [nuli.navercorp.com](https://nuli.navercorp.com){:target="_blank"}  
