@@ -27,6 +27,8 @@ Error [ERR_REQUIRE_ESM]: require() of ES Module ... not supported.
 
 ```shell
 npm install --save-dev gulp-imagemin@7.1.0
+
+# Only run this if using TypeScript
 npm install --save-dev @types/gulp-imagemin@7.0.3
 ```
 
