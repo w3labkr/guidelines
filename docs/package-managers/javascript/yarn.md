@@ -48,8 +48,8 @@ The following existing package.json:
   "scripts": {
     "clean:dir": "rm -rf node_modules",
     "clean:cache": "yarn cache clean",
-    "clean": "yarn run clean:dir && yarn run clean:cache",
-    "build": "yarn run clean && yarn install"
+    "clean": "yarn clean:dir && yarn clean:cache",
+    "build": "yarn clean && yarn install"
   },
   "keywords": [],
   "author": "",
