@@ -49,7 +49,7 @@ The following existing package.json:
     "clean:dir": "rm -rf node_modules",
     "clean:cache": "yarn cache clean",
     "clean": "yarn clean:dir && yarn clean:cache",
-    "build": "yarn clean && yarn install"
+    "reinstall": "yarn clean && yarn install"
   },
   "keywords": [],
   "author": "",
