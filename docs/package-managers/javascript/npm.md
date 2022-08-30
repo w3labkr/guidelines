@@ -37,7 +37,7 @@ Specifics of npm's package.json handling.
     "clean:dir": "rm -rf node_modules",
     "clean:cache": "npm cache clean --force",
     "clean": "npm run clean:dir && npm run clean:cache",
-    "build": "npm run clean && npm install"
+    "reinstall": "npm run clean && npm install"
   },
   "keywords": [],
   "author": "",
